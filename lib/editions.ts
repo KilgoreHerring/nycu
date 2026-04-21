@@ -136,9 +136,15 @@ function periodFromFilename(filename: string): string {
 export function parseEdition(raw: string, slug: string): Edition {
   // Non-numeric slugs (e.g. "edition-special") get a fractional number so
   // they sort into the right chronological position between numbered editions.
+  // Primary sort is by dateStart, so this is just a fallback / tiebreaker.
   const isSpecial = /special/i.test(slug);
+  const SPECIAL_NUMBERS: Record<string, number> = {
+    "edition-special": 8.5, // Jan 2025 predictions
+    "edition-special-2025-review": 32.4, // Jan 2026 review of 2025
+    "edition-special-2026-predictions": 32.6, // Jan 2026 predictions for 2026
+  };
   const numberFromSlug = isSpecial
-    ? 8.5
+    ? (SPECIAL_NUMBERS[slug] ?? 8.5)
     : parseInt(slug.replace(/[^\d]/g, ""), 10);
   const lines = raw.split(/\r?\n/);
 
@@ -591,7 +597,18 @@ export function getAllEditions(): Edition[] {
     const slug = file.replace(/\.md$/, "");
     return parseEdition(raw, slug);
   });
-  editions.sort((a, b) => b.number - a.number);
+  editions.sort((a, b) => {
+    // Primary: dateStart (newest first)
+    if (a.dateStart && b.dateStart && a.dateStart !== b.dateStart) {
+      return b.dateStart.localeCompare(a.dateStart);
+    }
+    // Tiebreaker: dateEnd (newest end first) - puts fortnightlies before single-day specials on shared start
+    if (a.dateEnd && b.dateEnd && a.dateEnd !== b.dateEnd) {
+      return b.dateEnd.localeCompare(a.dateEnd);
+    }
+    // Fallback: number
+    return b.number - a.number;
+  });
   return editions;
 }
 
