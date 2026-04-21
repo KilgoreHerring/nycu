@@ -5,9 +5,11 @@ import { marked } from "marked";
 export type DeepDive = {
   title: string;
   subtitleLinks?: InlineLink[]; // the "[Link](url)" or "[source](url) | [source](url)" line after the title
-  intro?: string; // HTML, intro paragraph before What/So What
+  intro?: string; // HTML, intro paragraph before What/So What (or full body for specials)
   what?: string; // HTML
   soWhat?: string; // HTML
+  accuracy?: string; // e.g. "High" - rating for special edition retrospectives
+  accuracyNote?: string; // e.g. "Timing & Impact" - descriptor alongside the rating
   sources?: InlineLink[];
 };
 
@@ -34,7 +36,7 @@ export type Edition = {
   deepDives: DeepDive[];
   worthReading: WorthReadingItem[];
   notInEdition?: WorthReadingItem[];
-  format: "modern" | "legacy";
+  format: "modern" | "legacy" | "special";
   rawHtml: string; // full markdown rendered as HTML (fallback)
 };
 
@@ -183,10 +185,17 @@ export function parseEdition(raw: string, slug: string): Edition {
   const { dateStart, dateEnd } = parsePeriodToIso(period);
 
   const hasModernMarkers = /^##\s+(Opening|Deep Dives|Worth Reading)/m.test(raw);
-  const format: "modern" | "legacy" = hasModernMarkers ? "modern" : "legacy";
+  const format: "modern" | "legacy" | "special" = isSpecial
+    ? "special"
+    : hasModernMarkers
+      ? "modern"
+      : "legacy";
 
   const rawHtml = renderBlock(raw);
 
+  if (format === "special") {
+    return parseSpecial(raw, slug, numberFromSlug, title, suffix, period, dateStart, dateEnd, rawHtml);
+  }
   if (format === "modern") {
     return parseModern(raw, slug, numberFromSlug, title, suffix, period, dateStart, dateEnd, rawHtml);
   }
@@ -235,6 +244,106 @@ function parseModern(
     worthReading,
     notInEdition,
     format: "modern",
+    rawHtml,
+  };
+}
+
+function parseSpecial(
+  raw: string,
+  slug: string,
+  number: number,
+  title: string,
+  suffix: string | undefined,
+  period: string,
+  dateStart: string,
+  dateEnd: string,
+  rawHtml: string,
+): Edition {
+  // Drop the first line (e.g. "Special Edition - 1st January 2026")
+  const body = raw.split(/\r?\n/).slice(1).join("\n").trim();
+
+  // Split off Worth Reading if present
+  const wrMatch = body.match(/(^|\n)Worth\s+Reading\s*:?\s*\n/i);
+  let themesPart = body;
+  let worthPart = "";
+  if (wrMatch) {
+    const idx = body.indexOf(wrMatch[0]) + wrMatch[0].length;
+    themesPart = body.slice(0, idx - wrMatch[0].length).trim();
+    worthPart = body.slice(idx).trim();
+  }
+
+  const blocks = themesPart.split(/\n\s*\n+/).map((b) => b.trim()).filter(Boolean);
+
+  const isThemeTitle = (block: string): boolean => {
+    const lines = block.split(/\n/).map((l) => l.trim());
+    if (lines.length !== 1) return false;
+    const line = lines[0];
+    if (!line) return false;
+    if (/^[-*]\s/.test(line)) return false;
+    if (/^accuracy\s*:/i.test(line)) return false;
+    if (line.length > 100) return false;
+    return true;
+  };
+
+  let opening: string | undefined;
+  const themes: DeepDive[] = [];
+  let i = 0;
+
+  // First non-title block is the opening blurb
+  if (blocks.length > 0 && !isThemeTitle(blocks[0])) {
+    opening = renderBlock(blocks[0]).trim();
+    i = 1;
+  }
+
+  while (i < blocks.length) {
+    if (!isThemeTitle(blocks[i])) {
+      i++;
+      continue;
+    }
+    const themeTitle = blocks[i].trim();
+    i++;
+
+    let accuracy: string | undefined;
+    let accuracyNote: string | undefined;
+    if (i < blocks.length && /^accuracy\s*:/i.test(blocks[i])) {
+      const accMatch = blocks[i].match(/^accuracy\s*:\s*([^|]+?)(?:\s*\|\s*(.+))?$/i);
+      if (accMatch) {
+        accuracy = accMatch[1].trim();
+        accuracyNote = accMatch[2]?.trim();
+      }
+      i++;
+    }
+
+    const contentBlocks: string[] = [];
+    while (i < blocks.length && !isThemeTitle(blocks[i])) {
+      contentBlocks.push(blocks[i]);
+      i++;
+    }
+
+    themes.push({
+      title: themeTitle,
+      accuracy,
+      accuracyNote,
+      intro: contentBlocks.length > 0 ? renderBlock(contentBlocks.join("\n\n")).trim() : undefined,
+    });
+  }
+
+  const worthReading = worthPart ? parseLegacyWorthReading(worthPart) : [];
+  const hook = firstSentence(opening ?? themes[0]?.intro ?? rawHtml);
+
+  return {
+    slug,
+    number,
+    title,
+    suffix,
+    period,
+    dateStart,
+    dateEnd,
+    hook,
+    opening,
+    deepDives: themes,
+    worthReading,
+    format: "special",
     rawHtml,
   };
 }

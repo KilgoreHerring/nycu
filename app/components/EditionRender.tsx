@@ -53,29 +53,61 @@ export function OpeningSection({ opening }: { opening?: string }) {
   );
 }
 
-export function DeepDivesSection({ deepDives }: { deepDives: DeepDive[] }) {
+export function DeepDivesSection({
+  deepDives,
+  variant = "deepDives",
+}: {
+  deepDives: DeepDive[];
+  variant?: "deepDives" | "themes";
+}) {
   if (!deepDives.length) return null;
   const hasRealContent = deepDives.some((d) => d.what || d.soWhat || d.intro);
   if (!hasRealContent) return null;
+  const isThemes = variant === "themes";
 
   return (
     <section className="px-6 pt-4 pb-10 md:pb-16">
       <div className="max-w-5xl mx-auto">
-        <SectionHeader
-          eyebrow="Deep Dives"
-          title={
-            <>
-              Three stories worth <span className="font-display-italic text-[#8a4a30]">sitting with</span>
-            </>
-          }
-        />
-        <div className="mt-10 space-y-8">
+        {!isThemes ? (
+          <SectionHeader
+            eyebrow="Deep Dives"
+            title={
+              <>
+                Three stories worth <span className="font-display-italic text-[#8a4a30]">sitting with</span>
+              </>
+            }
+          />
+        ) : null}
+        <div className={`${isThemes ? "" : "mt-10"} space-y-8`}>
           {deepDives.map((d, i) => (
             <DeepDiveCard key={i} dive={d} washIndex={i} />
           ))}
         </div>
       </div>
     </section>
+  );
+}
+
+function AccuracyBadge({ rating, note }: { rating: string; note?: string }) {
+  const colorMap: Record<string, { bg: string; text: string }> = {
+    high: { bg: "#3a7d78", text: "#ffffff" },
+    "medium-high": { bg: "#7a8550", text: "#ffffff" },
+    medium: { bg: "#c9a66b", text: "#142028" },
+    "medium-low": { bg: "#a86a3b", text: "#ffffff" },
+    low: { bg: "#8a4a30", text: "#ffffff" },
+  };
+  const key = rating.toLowerCase().trim();
+  const color = colorMap[key] ?? { bg: "#5b6f7d", text: "#ffffff" };
+  return (
+    <div className="mt-3 inline-flex items-center gap-3 flex-wrap">
+      <span
+        className="eyebrow not-italic text-xs px-3 py-1 rounded-full"
+        style={{ backgroundColor: color.bg, color: color.text }}
+      >
+        {rating}
+      </span>
+      {note ? <span className="text-sm text-[#5b6f7d]">{note}</span> : null}
+    </div>
   );
 }
 
@@ -90,6 +122,9 @@ function DeepDiveCard({ dive, washIndex }: { dive: DeepDive; washIndex: number }
         <h3 className="font-display text-2xl md:text-[1.9rem] leading-snug text-[#142028]">
           {dive.title}
         </h3>
+      ) : null}
+      {dive.accuracy ? (
+        <AccuracyBadge rating={dive.accuracy} note={dive.accuracyNote} />
       ) : null}
       {dive.subtitleLinks?.length ? (
         <p className="mt-2 text-sm text-[#5b6f7d]">
@@ -296,10 +331,11 @@ export function EditionBody({ edition }: { edition: Edition }) {
   if (edition.format === "legacy" && edition.deepDives.every((d) => !d.what && !d.soWhat)) {
     return <LegacyBody html={edition.rawHtml} />;
   }
+  const variant = edition.format === "special" ? "themes" : "deepDives";
   return (
     <>
       <OpeningSection opening={edition.opening} />
-      <DeepDivesSection deepDives={edition.deepDives} />
+      <DeepDivesSection deepDives={edition.deepDives} variant={variant} />
       <WorthReadingSection items={edition.worthReading} />
       {edition.notInEdition?.length ? (
         <WorthReadingSection
