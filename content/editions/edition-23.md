@@ -3,7 +3,7 @@
 - GPT-5 Coverage - smarter, faster, but not perfect ([Mollick](https://www.oneusefulthing.org/p/gpt-5-it-just-does-stuff) | [Harvey](https://www.harvey.ai/blog/building-a-legal-coworker-with-gpt-5) | [Legora](https://www.linkedin.com/posts/wearelegora_why-legora-is-ready-for-gpt-5-openai-today-activity-7359288000230346752-glHu) | [Gary Marcus](https://garymarcus.substack.com/p/gpt-5-overdue-overhyped-and-underwhelming))
 	- What: The launch of GPT-5 combines better reasoning, quicker output, and handles more complex tasks. Harvey and Legora (amongst others) have already integrated GPT-5 to improve their products. Harvey showed sharper drafting and improved performance on their BigLaw Bench evaluation suite. However, AI critic Gary Marcus described the model as overhyped and underwhelming.
 	- So what: As we continue testing models for AGPT, we can explore GPT-5's capabilities to see if it enhances AGPT's accuracy, speed and usefulness. Initial tests show that GPT-5 performs better on our DD benchmark.
-- [McKinsey Technology Trends Outlook 2025 (PDF)](https://myag365.sharepoint.com/:b:/r/sites/InnovationLegalTech/Shared%20Documents/Research%20and%20Development/Reading/mckinsey-technology-trends-outlook-2025.pdf?csf=1&web=1&e=vJW2EQ)
+- [McKinsey Technology Trends Outlook 2025](https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-top-trends-in-tech)
 	- What: McKinsey identifies 13 frontier tech trends set to transform industries. Key themes include the rise of agentic AI, advances in application-specific semiconductors, the scaling of autonomous systems, and deeper human-machine collaboration.
 	- So what: The trends support our approach to experiment with multi-step AI workflows across different teams. Tools such as Copilot, or Microsoft apps like Power Automate are increasingly vital to our build and testing of agentic workflows.
 - [OpenAI x BBVA Collaboration](https://www.bbva.com/en/innovation/openai-highlights-its-collaboration-with-bbva-in-the-global-launch-of-gpt-5/)
@@ -11,23 +11,24 @@
 	- So what: A major financial institution adopting GPT-5 at scale highlights the potential impact of next-generation AI in professional services. This validates our investment in AGPT and our tech stack.
 
 Worth Reading:
-- McKinsey Technology Trends Outlook 2025 (PDF)
-- [TR launches CoCounsel Legal with Agents (Artificial Lawyer)](https://www.artificiallawyer.com/2025/08/05/tr-launches-cocounsel-legal-with-agents-deep-research/)
-- [Harvey: The Future of Legal Technology](https://www.harvey.ai/blog/the-future-of-legal-technology)
-- [Jordan Furlong – What Are Lawyers For?](https://jordanfurlong.substack.com/p/what-are-lawyers-for)
-- [Legora Timeline (Law.com)](https://www.law.com/legaltechnews/2025/07/31/a-timeline-how-legora-has-become-one-of-the-biggest-names-in-legal-ai/)
-- [Harvey Credibility (Law.com)](https://www.law.com/international-edition/2025/08/04/chasing-credibility-is-harveys-sales-pitch-working/)
-- [Alex Hamilton – Legal AI's Next Breakout](https://www.alexofftherecord.com/p/legal-ais-next-breakout)
-- Building for Production: Generative AI Playbook (PDF)
-- GPT-5 Coverage:
-  - [One Useful Thing – GPT-5: It Just Does Stuff](https://www.oneusefulthing.org/p/gpt-5-it-just-does-stuff)
-  - [Harvey – Building a Legal Coworker with GPT-5](https://www.harvey.ai/blog/building-a-legal-coworker-with-gpt-5)
-  - [Gary Marcus – GPT-5: Overdue, Overhyped, Underwhelming](https://garymarcus.substack.com/p/gpt-5-overdue-overhyped-and-underwhelming)
-- [AI in Big Law (LinkedIn)](https://www.linkedin.com/pulse/ai-big-law-why-model-might-collapse-faster-than-you-think-grupp-dhqme/)
-- [Marveri on Due Diligence (The Legal Wire)](https://thelegalwire.ai/no-chatbots-needed-just-diligence-how-marveri-brings-ai-back-to-the-deal-table/)
-- [Legal Professional Privilege & GenAI (LinkedIn)](https://www.linkedin.com/pulse/legal-professional-privilege-age-genai-why-training-off-raj-mahapatra-26qce)
-- [Legal Tech Automation Hype Cycle (Crunchbase)](https://news.crunchbase.com/ai/legal-tech-automation-hype-cycle-grupp-bryter/)
-- Prompting Science Report 3 (PDF)
-- [OpenAI GPT-5 Prompting Guide](https://cookbook.openai.com/examples/gpt-5/gpt-5_prompting_guide)
-- [Anthropic: 1M Context Window](https://www.anthropic.com/news/1m-context)
-- [OpenAI x BBVA Collaboration](https://www.bbva.com/en/innovation/openai-highlights-its-collaboration-with-bbva-in-the-global-launch-of-gpt-5/)
+
+- **McKinsey Technology Trends Outlook 2025 (PDF):** [Internal AG resource] McKinsey's 13 frontier tech trends, led by agentic AI, application-specific silicon, scaled autonomy and deeper human-machine collaboration. Useful backdrop for firm-wide tech strategy discussions.
+- **[Artificial Lawyer - TR Launches CoCounsel Legal with Agents and Deep Research:](https://www.artificiallawyer.com/2025/08/05/tr-launches-cocounsel-legal-with-agents-deep-research/)** Thomson Reuters unifies its legal AI under CoCounsel Legal, adds multi-step "Deep Research" with traced reasoning, and embeds agentic guided workflows. Big repositioning of CoCounsel from assistant to agentic platform.
+- **[Harvey - The Future of Legal Technology:](https://www.harvey.ai/blog/the-future-of-legal-technology)** Harvey's long-form view of where legal tech is going: hybrid build-plus-buy, new business models, AI-native competitors, and pricing reform. Worth a read even if you take Harvey's self-interest into account.
+- **[Jordan Furlong - What Are Lawyers For?:](https://jordanfurlong.substack.com/p/what-are-lawyers-for)** Furlong argues lawyers have a commercial role and a civic role - to "bring the law to life" and defend the rule of law. Pointed in the current political environment.
+- **[Law.com - A Timeline of How Legora Became One of the Biggest Names in Legal AI:](https://www.law.com/legaltechnews/2025/07/31/a-timeline-how-legora-has-become-one-of-the-biggest-names-in-legal-ai/)** Law.com's chronological walk through Legora's rise, funding and product expansion. Good reference piece to understand the company's trajectory vs Harvey.
+- **[Law.com - Chasing Credibility: Is Harvey's Sales Pitch Working?:](https://www.law.com/international-edition/2025/08/04/chasing-credibility-is-harveys-sales-pitch-working/)** International take on whether Harvey's pitch actually lands with UK and EU buyers. Useful counter to the US-heavy funding coverage.
+- **[Alex Su - Legal AI's Next Breakout:](https://www.alexofftherecord.com/p/legal-ais-next-breakout)** Argues the technology is ready but distribution is the real problem. The channel that will scale legal AI needs to be embedded in the work, trusted by senior buyers, and operationally mature - pointing toward ALSPs.
+- **Building for Production: Generative AI Playbook (PDF):** [Internal AG resource] Playbook on the engineering and operational work required to move GenAI features from demo to production. Useful reference for any internal build effort.
+- **GPT-5 Coverage:**
+  - **[One Useful Thing - GPT-5: It Just Does Stuff:](https://www.oneusefulthing.org/p/gpt-5-it-just-does-stuff)** Mollick's take: GPT-5 meaningfully changes the UX because the model now picks its own approach, plans next steps, and produces deliverables without precise instructions.
+  - **[Harvey - Building a Legal Coworker with GPT-5:](https://www.harvey.ai/blog/building-a-legal-coworker-with-gpt-5)** Harvey on how GPT-5 unlocks a "legal coworker" that plans, reasons and executes full workflows rather than one-shot tasks. Vendor framing but useful to see what they're building on top.
+  - **[Gary Marcus - GPT-5: Overdue, Overhyped, Underwhelming:](https://garymarcus.substack.com/p/gpt-5-overdue-overhyped-and-underwhelming)** Marcus on GPT-5 as an incremental advance. Same hallucinations, same reasoning failures, same generalisation gaps - in his view, vindication of the "scaling is not enough" argument.
+- **[LinkedIn - AI in Big Law: Why the Model Might Collapse Faster Than You Think:](https://www.linkedin.com/pulse/ai-big-law-why-model-might-collapse-faster-than-you-think-grupp-dhqme/)** Argues AI will eat junior work at the base of the pyramid and force firms into AI-native structures. Bolt-ons won't be enough to hold the partnership model together.
+- **[The Legal Wire - Marveri Brings AI Back to the Deal Table:](https://thelegalwire.ai/no-chatbots-needed-just-diligence-how-marveri-brings-ai-back-to-the-deal-table/)** Marveri strips out the chatbot UX and focuses on M&A due diligence - auto-organising data rooms, flagging inconsistencies and missing agreements. Useful counter-example to the "one prompt box for everything" model.
+- **[LinkedIn - Raj Mahapatra on Legal Professional Privilege and GenAI:](https://www.linkedin.com/pulse/legal-professional-privilege-age-genai-why-training-off-raj-mahapatra-26qce)** Turning off "training" isn't enough. Any third-party processing of privileged material creates risk, so on-premise systems and informed client consent are the real control points.
+- **[Crunchbase - Legal Tech Automation Hype Cycle:](https://news.crunchbase.com/ai/legal-tech-automation-hype-cycle-grupp-bryter/)** Bryter's Michael Grupp argues the legal market has moved from "needs educating" to "urgently buying" and advises founders to ignore the noise and ship fast.
+- **Prompting Science Report 3 (PDF):** [Internal AG resource] Third instalment of the Prompting Science Report covering structured testing of prompt techniques. Useful empirical grounding for any prompt library or training session.
+- **[OpenAI Cookbook - GPT-5 Prompting Guide:](https://cookbook.openai.com/examples/gpt-5/gpt-5_prompting_guide)** Official guide on prompting GPT-5 - reasoning controls, tool use, agentic workflows, and the quirks of the new router-style model behaviour.
+- **[Anthropic - 1M Context Window:](https://www.anthropic.com/news/1m-context)** Claude Sonnet gets a 1M-token context window. Matters specifically for long-document legal tasks like full-bundle review, deal data rooms, and multi-volume regulatory filings.
+- **[BBVA - OpenAI Highlights BBVA Collaboration at GPT-5 Launch:](https://www.bbva.com/en/innovation/openai-highlights-its-collaboration-with-bbva-in-the-global-launch-of-gpt-5/)** 11,000 ChatGPT licences across BBVA with over 80% reporting around three hours saved per week. Concrete enterprise AI rollout data point for financial services client conversations.

@@ -1,11 +1,11 @@
 30th Edition - 15th - 30th Nov 2025
 
-Harvey x RSGI Impact Report
+[Harvey x RSGI Impact Report](https://www.harvey.ai/resources/reports/harvey-rsgi-report)
 
 - What: RSGI interviewed 40 organisations (29 law firms and 11 in-house teams) to analyse how Harvey is actually used and what value it delivers. The findings show extremely high adoption (92% active use), fast time-to-value (most see benefits within 3 months), and strong user attachment - many lawyers said they would be "upset" if Harvey were taken away. Power users save 2-3 times more time than typical users, and both firms and in-house teams report better quality of work, faster turnaround, and improved workplace fulfilment.
 - So what: Gen AI is now evidently the baseline legal infrastructure. Clients increasingly expect firms to use AI and will question how efficiency and quality gains translate into value. Internal AI adoption needs to be visible, consistent, and tied to better service delivery - reports like this are useful to point to as 'success stories'. It also sets out that the competitive landscape is shifting, everyone has access to these tools now (including clients) and it's down to how technology is tied to what we do to differentiate ourselves. The report also highlights more interest in alternative delivery models - which we can leverage in conversations.
 
-Gemini 3 release
+[Gemini 3 release](https://blog.google/products-and-platforms/products/gemini/gemini-3-collection/)
 
 - What: Google has launched Gemini 3, describing it as their most intelligent model to date with improved reasoning, multimodal understanding, and better context/intent handling. Gemini 3 is in the Gemini app, AI Studio, Vertex AI and includes a Deep Think mode for more complex problems. Google also highlights scale/adoption metrics in the announcement: AI Overviews ~2 billion monthly users, Gemini app ~650 million monthly users, 70% of Google Cloud customers using AI features, and ~13 million developers building with Google models.
 - So what: Google is visibly pushing to re-establish itself in the enterprise AI race, positioning Gemini 3 as a competitor to GPT-5 and Claude Opus and embedding it across products clients already use. We can expect stronger AI capabilities in Google-based workflows used by clients, counterparties and suppliers. From our benchmarking Gemini 3 is a strong model, but not as suited for legal work. It shows we need to make sure our options are open away from just Microsoft and validates our work on setting up Google for AGPT / internal LLMs.

@@ -1,6 +1,6 @@
 21st Edition - 1st - 14th July 2025
 
-[BCG - AI at Work: Momentum Builds, but Gaps Remain (PDF)](https://myag365.sharepoint.com/:b:/r/sites/InnovationLegalTech/Shared%20Documents/Research%20and%20Development/Reading/ai-at-work-2025-slideshow-june-2025-edit-02.pdf?csf=1&web=1&e=wfs5tV)
+[BCG - AI at Work 2025: Momentum Builds, but Gaps Remain](https://www.bcg.com/publications/2025/ai-at-work-momentum-builds-but-gaps-remain)
 - What: Based on a 10K+ employee global survey, BCG's AI at Work 2025 report reveals critical insights about how generative AI is being adopted, or rather under-adopted, at work. While leadership and technology roles report frequent weekly usage, only around 51% of frontline employees use AI regularly. Key barriers include lack of sufficient training (only 36% feel adequately prepared) and limited access to the right tools, which leads to unauthorised "shadow AI" use (over one-third reported).
 - So what: This highlights the importance of user training, access, and leadership alignment that is crucial for adoption of tools like AGPT and our tech stack. To achieve meaningful impact, our rollout strategy should include micro-training, coaching, and clearly defined workflows, not just rollout communications. Potential to use this as leverage for our AI workshops - indicating the need for engagement and training across the business.
 
@@ -13,19 +13,20 @@
 - So what: This helps frame why responsible use, transparency, and grounded expectations matter, both internally and with clients. We should continue centering our messaging around practicality, oversight, and user feedback, not tech jargon or grand promises.
 
 Worth Reading:
-- [Freshfields launches legal tech masters degree](https://www.thelawyer.com/freshfields-preps-next-gen-lawyers-by-launching-legal-tech-masters-degree/)
-- ["I'm losing all trust in the AI industry" – The Algorithmic Bridge](https://www.thealgorithmicbridge.com/p/im-losing-all-trust-in-the-ai-industry)
-- [Wordsmith: Legal AI Engineer Hub](https://legal-ai-engineer.wordsmith.ai/)
-- [Andrej Karpathy: Software is Changing (Again)](https://www.youtube.com/watch?v=LCEmiRjPEtQ)
-- [Keep the hour—but give clients more for free (Artificial Lawyer)](https://www.artificiallawyer.com/2025/07/07/keep-the-hour-but-give-clients-more-for-free/)
-- [Eudia buys ALSP Johnson Hana](https://www.artificiallawyer.com/2025/07/08/inhouse-ai-co-eudia-buys-alsp-johnson-hana/)
-- Grok 4 launch and benchmark
-- [A language model built for the public good – ETH Zurich](https://ethz.ch/en/news-and-events/eth-news/news/2025/07/a-language-model-built-for-the-public-good.html)
-- [Anthropic x Legora](https://www.anthropic.com/customers/legora)
-- [TR CoCounsel Knowledge Search launch](https://legaltechnology.com/2025/07/09/thomson-reuters-launches-cocounsel-knowledge-search-to-surface-multi-repository-information-in-the-workflow/)
-- [Legaltech.com's LegalTechLab](https://www.legaltech.com/legaltechlab)
-- [Eudia acquisition coverage – Business Insider](https://www.businessinsider.com/general-catalyst-backed-eudia-makes-first-conditional-acquisition-2025-7)
-- [METR AI OS Developer Study](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/)
-- AI at Work 2025 – BCG (PDF)
-- [12 Considerations for Digital Talent Strategy – Within International](https://withininternational.com/12-considerations-for-a-digital-talent-management-strategy/)
-- [OpenAI, DeepMind, Anthropic warn: AI interpretability is slipping](https://venturebeat.com/ai/openai-google-deepmind-and-anthropic-sound-alarm-we-may-be-losing-the-ability-to-understand-ai/)
+
+- **[The Lawyer - Freshfields Launches Legal Tech Masters Degree:](https://www.thelawyer.com/freshfields-preps-next-gen-lawyers-by-launching-legal-tech-masters-degree/)** Freshfields partners with King's College London on a fully-funded LLM in Law and Technology for incoming trainees, with a £20k stipend. Sets a clear bar for the tech fluency firms will expect from juniors.
+- **[Algorithmic Bridge - I'm Losing All Trust in the AI Industry:](https://www.thealgorithmicbridge.com/p/im-losing-all-trust-in-the-ai-industry)** Alberto Romero's sharp critique. AGI rhetoric clashes with staff churn and engagement-optimised products, and the business models don't look sustainable.
+- **[Wordsmith - Legal AI Engineer Hub:](https://legal-ai-engineer.wordsmith.ai/)** Wordsmith's new community and content hub for the emerging "legal AI engineer" role. Useful if you're building an in-house team on this boundary.
+- **[YouTube - Andrej Karpathy: Software Is Changing (Again):](https://www.youtube.com/watch?v=LCEmiRjPEtQ)** Karpathy's talk on how LLMs rewire the way software gets built - natural language as the new programming interface and agents as the new deployment unit. Essential watch for anyone shaping tech strategy.
+- **[Artificial Lawyer - Keep the Hour, but Give Clients More for Free:](https://www.artificiallawyer.com/2025/07/07/keep-the-hour-but-give-clients-more-for-free/)** Provocative pricing argument: stop billing the AI-automated work, keep the hourly rate for complex partner work. Frees the firm to use AI aggressively without cannibalising revenue.
+- **[Artificial Lawyer - Eudia Buys ALSP Johnson Hana:](https://www.artificiallawyer.com/2025/07/08/inhouse-ai-co-eudia-buys-alsp-johnson-hana/)** AI vendor Eudia acquires ALSP Johnson Hana (300+ legal staff). First time an AI company has bought a people-based ALSP, creating a blended AI-plus-human model for in-house legal.
+- **Grok 4 launch and benchmark:** xAI launched Grok 4 with reasoning, tool use and a larger context window. Claims top benchmark scores on several reasoning tests, though data governance and safety posture continue to hold most enterprise legal teams back.
+- **[ETH Zurich - A Language Model Built for the Public Good:](https://ethz.ch/en/news-and-events/eth-news/news/2025/07/a-language-model-built-for-the-public-good.html)** ETH Zurich and EPFL release a fully open 8B and 70B LLM trained on the Alps supercomputer across 1,000+ languages. Apache 2.0 licence, open weights and open data - strong European option.
+- **[Anthropic - Legora Customer Story:](https://www.anthropic.com/customers/legora)** Case study of Legora running on Claude. Useful datapoint on how legal AI vendors pick and switch between underlying foundation models.
+- **[Legal IT Insider - Thomson Reuters Launches CoCounsel Knowledge Search:](https://legaltechnology.com/2025/07/09/thomson-reuters-launches-cocounsel-knowledge-search-to-surface-multi-repository-information-in-the-workflow/)** CoCounsel Knowledge Search pulls across HighQ, iManage, NetDocuments, SharePoint and Westlaw in a single legal workflow. Big competitor move against the "one search across everything" pitch from DeepJudge, Legora and others.
+- **[Legaltech.com - LegalTechLab:](https://www.legaltech.com/legaltechlab)** New accelerator offering up to $250k plus mentorship for early-stage legal tech founders. Another signal that capital into the category is not slowing.
+- **[Business Insider - Eudia's First Conditional Acquisition:](https://www.businessinsider.com/general-catalyst-backed-eudia-makes-first-conditional-acquisition-2025-7)** BI's coverage of the Eudia/Johnson Hana deal and General Catalyst's thesis behind funding it. Puts the AI-plus-human legal services model on the investor map.
+- **[METR - AI Experienced Developer Study:](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/)** Surprising RCT finding: 16 experienced developers using AI tools took 19% longer to complete issues while believing they had gone 20% faster. Big wake-up call on subjective vs measured productivity.
+- **AI at Work 2025 - BCG (PDF):** [Internal AG resource] BCG's 10k+ employee survey on GenAI adoption. Only 51% of frontline employees use AI regularly, 36% feel adequately trained, and "shadow AI" is widespread.
+- **[Within International - 12 Considerations for Digital Talent Strategy:](https://withininternational.com/12-considerations-for-a-digital-talent-management-strategy/)** Twelve-point checklist covering culture, talent-business alignment, non-traditional recruitment, digital dexterity and AI collaboration. Useful structure for HR conversations on the AI talent model.
+- **[VentureBeat - Labs Warn AI Interpretability Is Slipping:](https://venturebeat.com/ai/openai-google-deepmind-and-anthropic-sound-alarm-we-may-be-losing-the-ability-to-understand-ai/)** Rare joint warning from OpenAI, DeepMind and Anthropic researchers that chain-of-thought monitoring - the main way we understand what frontier models are "thinking" - may not survive the next generation. Real safety and assurance implications.

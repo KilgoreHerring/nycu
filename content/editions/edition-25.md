@@ -11,25 +11,26 @@
 	- So what: This means LLMs can be made more reliable and predictable. Guaranteeing consistent results is important for testing and deployment - we are seeing this challenge with some work on AI Benchmarking and reviews through Legora.
 
 Worth Reading:
-- [Artificial Lawyer: What Is MCP and Why You Need It](https://www.artificiallawyer.com/2025/09/01/what-is-mcp-and-why-you-need-it/)
-- [LexisNexis: The AI Culture Clash](https://www.lexisnexis.co.uk/insights/the-ai-culture-clash/index.html)
-- [LinkedIn: Law firm AI strategy, innovation, transformation, or revolution?](https://www.linkedin.com/pulse/law-firm-ai-strategy-innovation-transformation-revolution-kaichen-xu-rocac/)
-- [Artificial Lawyer: EUDIA opens AI-augmented law firm for M&A](https://www.artificiallawyer.com/2025/09/03/eudia-opens-ai-augmented-law-firm-for-ma/)
-- [NYT Opinion: AI, GPT-5, rethinking](https://www.nytimes.com/2025/09/03/opinion/ai-gpt5-rethinking.html)
-- [SLG (Hg): AI in the real world](https://slg.hgcapital.com/senior-leadership-gathering-2025/ai-in-the-real-world)
-- [Northzone: Legal AI -- the jury's out, but the race is on](https://northzone.com/2025/07/15/legal-ai-the-jurys-out-but-the-race-is-on/)
-- [Dazza Greenwood: Beyond AI Benchmarks](https://www.dazzagreenwood.com/p/beyond-ai-benchmarks)
-- [OpenAI: Why language models hallucinate](https://openai.com/index/why-language-models-hallucinate/)
-- [Legora x Deloitte Legal: Strategic relationship](https://legora.com/blog/deloitte-legal-and-legora-join-forces-to-drive-the-next-wave-of-legal-ai-transformation)
-- why-language-models-hallucinate.pdf
-- PWC -- uk-legal-services-market-report-2025.pdf
-- Working with AI -- Measuring impact of AI.pdf
-- the-contract-intelligence-index-report-enus-new.pdf
-- [Medium: How Harvey built trust in legal AI](https://medium.com/@takafumi.endo/how-harvey-built-trust-in-legal-ai-a-case-study-for-builders-786cc23c3b6d)
-- [Nature: News & Views on AI](https://www.nature.com/articles/d41586-025-02853-8)
-- [HBR: What Happened When Researchers Co-Founded a Startup with AI](https://hbr.org/2025/09/what-happened-when-researchers-co-founded-a-startup-with-ai)
-- [Gary Marcus: OpenAI's future, foretold?](https://garymarcus.substack.com/p/openais-future-foretold)
-- [Thinking Machines: Defeating nondeterminism in LLM inference](https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/)
-- [CCBJ: Why MCP may be the legal industry's next breakthrough](https://ccbjournal.com/blog/why-model-context-protocol-may-be-the-legal-industrys-next-breakthrough)
-- [Pinsent Masons: New tool to transform legal due-diligence reporting](https://www.pinsentmasons.com/about-us/announcements/pinsent-masons-launches-new-tool-to-transform-legal-due-diligence-reporting)
-- [Juro x Wordsmith: Strategic partnership](https://juro.com/blog/juro-wordsmith-agree-strategic-partnership)
+
+- **[Artificial Lawyer - What Is MCP and Why You Need It:](https://www.artificiallawyer.com/2025/09/01/what-is-mcp-and-why-you-need-it/)** AL's primer on MCP as the "USB-C for AI" - a standard that lets AI models plug into data and tools and break the walled-garden model of legal tech. Useful intro for firm leadership and procurement.
+- **[LexisNexis - The AI Culture Clash:](https://www.lexisnexis.co.uk/insights/the-ai-culture-clash/index.html)** UK survey showing 61% of lawyers now use AI but only 17% say it's truly integrated into firm strategy. Cultural resistance and unclear ROI are the main drags.
+- **[LinkedIn - Law Firm AI Strategy: Innovation, Transformation, or Revolution?:](https://www.linkedin.com/pulse/law-firm-ai-strategy-innovation-transformation-revolution-kaichen-xu-rocac/)** Argues firms should pursue reinvention, building AI-native practices as autonomous units alongside the legacy firm. Eventually the new model replaces the old, with lawyers still central to the expertise-engineering process.
+- **[Artificial Lawyer - Eudia Opens AI-Augmented Law Firm for M&A:](https://www.artificiallawyer.com/2025/09/03/eudia-opens-ai-augmented-law-firm-for-ma/)** Eudia Counsel launches under Arizona's ABS regime, combining AI and regulated counsel for M&A diligence. Uses a "Customer Brain" that learns from each engagement - ABS regime opening new structural options.
+- **[NYT Opinion - AI, GPT-5, Rethinking:](https://www.nytimes.com/2025/09/03/opinion/ai-gpt5-rethinking.html)** NYT op-ed on what the muted GPT-5 reception reveals about the wider AI narrative. Useful piece for leadership trying to gauge whether the scaling era is pausing.
+- **[Hg - SLG 2025: AI in the Real World:](https://slg.hgcapital.com/senior-leadership-gathering-2025/ai-in-the-real-world)** Morgan Stanley and A&O Shearman on multi-year AI transformation: infrastructure, domain expertise, human-in-the-loop and a willingness to rewire business models. A&O Shearman specifically called out the shift from hourly to fixed-fee.
+- **[Northzone - Legal AI: The Jury's Out, But the Race Is On:](https://northzone.com/2025/07/15/legal-ai-the-jurys-out-but-the-race-is-on/)** VC view from Northzone. No clear winner yet, but workflow integration, trust and deep contextual data are the real differentiators.
+- **[Dazza Greenwood - Beyond AI Benchmarks:](https://www.dazzagreenwood.com/p/beyond-ai-benchmarks)** Argues generic benchmarks don't capture what "good" looks like for your organisation. Firms need custom evaluation frameworks built from golden datasets and domain expert input.
+- **[OpenAI - Why Language Models Hallucinate:](https://openai.com/index/why-language-models-hallucinate/)** OpenAI's paper on the training-objective roots of hallucination. Models are rewarded for confident guesses rather than saying "I don't know", which is structural rather than a bug to patch.
+- **[Legora x Deloitte Legal - Strategic Relationship:](https://legora.com/blog/deloitte-legal-and-legora-join-forces-to-drive-the-next-wave-of-legal-ai-transformation)** Deloitte Legal partners with Legora for AI-led legal transformation programmes, with custom workflows and pre-built solutions on the Legora platform. Big Four legal consulting wrapping itself around a legal AI vendor.
+- **why-language-models-hallucinate.pdf:** [Internal AG resource] PDF of the OpenAI hallucination paper. Useful background reading.
+- **PwC - UK Legal Services Market Report 2025 (PDF):** [Internal AG resource] PwC's annual view of the UK legal services market - revenue, profit, headcount, tech spend. Solid benchmarking data for firm-level conversations.
+- **Working with AI - Measuring Impact of AI (PDF):** [Internal AG resource] Framework for measuring AI impact in a legal business. Useful for setting up internal KPIs beyond "seat count."
+- **The Contract Intelligence Index Report (PDF):** [Internal AG resource] Report on the state of contract intelligence tools and adoption. Useful reference for contract AI procurement and benchmarking.
+- **[Medium - How Harvey Built Trust in Legal AI:](https://medium.com/@takafumi.endo/how-harvey-built-trust-in-legal-ai-a-case-study-for-builders-786cc23c3b6d)** Case study breaking down Harvey's trust stack (custom legal models, 0.2% hallucination rate, case law verification), its "Minimum Viable Trust" GTM with flagship firms, and the LexisNexis / Microsoft ecosystem plays.
+- **[Nature - News and Views on AI:](https://www.nature.com/articles/d41586-025-02853-8)** Nature commentary on recent AI research developments. Useful signal for what's landing in the scientific community vs the hype cycle.
+- **[HBR - What Happened When Researchers Co-Founded a Startup with AI:](https://hbr.org/2025/09/what-happened-when-researchers-co-founded-a-startup-with-ai)** NYU Stern MBA / Microsoft experiment in building AI-agent-native startups from day one. Early read on what "Frontier Firm" organisational models look like.
+- **[Gary Marcus - OpenAI's Future, Foretold?:](https://garymarcus.substack.com/p/openais-future-foretold)** Marcus argues that without a further step-change in demand, OpenAI's route to $200bn revenue by 2030 looks shaky. Weak ROI stories and underwhelming releases make the compute bill hard to justify.
+- **[Thinking Machines - Defeating Nondeterminism in LLM Inference:](https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/)** Explains why LLMs can give different answers to the same prompt (numerical precision, execution order) and proposes batch-invariant kernels to make output deterministic. Matters for evals, testing, and any regulated legal deployment.
+- **[CCBJ - Why MCP May Be the Legal Industry's Next Breakthrough:](https://ccbjournal.com/blog/why-model-context-protocol-may-be-the-legal-industrys-next-breakthrough)** Paul Walker (iManage) on MCP as "act two" of legal AI. Lets agents retrieve, reason and act across legal systems while respecting existing security and permissions - no more brittle custom connectors.
+- **[Pinsent Masons Launches New Due Diligence Reporting Tool:](https://www.pinsentmasons.com/about-us/announcements/pinsent-masons-launches-new-tool-to-transform-legal-due-diligence-reporting)** PM launches Portana, a client-facing DD dashboard with real-time collaboration and findings sorted by area of law, issue type or remedy. Another firm productising its DD output.
+- **[Juro x Wordsmith - Strategic Partnership:](https://juro.com/blog/juro-wordsmith-agree-strategic-partnership)** Juro (CLM) and Wordsmith (agent workspace) integrate via MCP. Clients of both platforms get cross-functionality - early example of how MCP can stitch vendor ecosystems together.

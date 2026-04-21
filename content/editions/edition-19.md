@@ -3,7 +3,7 @@
 - [Built a multi-agent research system](https://www.anthropic.com/engineering/built-multi-agent-research-system)
 	- What: Anthropic showcases how multi-agent AI systems can collaborate on complex research. These agents are not just parallel workers: they assign roles, plan workflows, and critique each other's outputs, simulating how teams of people might collaborate.
 	- So what: This opens the door for truly modular, coordinated AI systems - a direction that aligns with some of our aspirations around AGPT or any multi-step automation flows we are building. We can now think beyond "one prompt = one output" and explore more agent-style execution.
-- [Fearless Future - Jobs Report - PwC (PDF)](https://myag365.sharepoint.com/:b:/r/sites/InnovationLegalTech/Shared%20Documents/Research%20and%20Development/Reading/Fearless%20Future.%20Jobs%20Report%20-%20PWC.pdf?csf=1&web=1&e=OfCK3F)
+- [PwC Fearless Future - 2025 Global AI Jobs Barometer](https://www.pwc.com/gx/en/services/ai/ai-jobs-barometer.html)
 	- What: PwC analyses over half a billion job postings globally and finds that jobs requiring AI skills are growing 3.5 times faster than average, with a 25% wage premium. More importantly, the report identifies that GenAI amplifies human capability rather than replaces it, especially in legal, finance, and compliance sectors.
 	- So what: This validates our focus on AI-human collaboration, not replacement. We can use this data to support upskilling conversations internally and reassure clients that our approach is augmentation-first.
 - [Microsoft Work Index Report Briefing](https://techcommunity.microsoft.com/blog/healthcareandlifesciencesblog/microsofts-work-trend-index-annual-report-2025-key-findings/4421433)
@@ -11,16 +11,17 @@
 	- So what: While we develop tools like AGPT and embed GenAI into work delivery, we must invest just as much in skills development, cultural buy-in, and leadership enablement as we do in the tech itself.
 
 Worth Reading:
-- [Eric Schmidt: The AI revolution is underhyped](https://www.ted.com/talks/eric_schmidt_the_ai_revolution_is_underhyped)
-- [The Pyramid That Will Eat Itself](https://jaanlarner.substack.com/p/the-pyramid-that-will-eat-itself-4e4)
-- [The speculative rise of AI agents in legal](https://www.scl.org/the-speculative-rise-of-ai-agents-in-legal/)
-- [Researchers secretly experimented on Reddit users with AI-generated comments](https://www.engadget.com/ai/researchers-secretly-experimented-on-reddit-users-with-ai-generated-comments-194328026.html)
-- [LegalZoom announces strategic partnership with Perplexity](https://finance.yahoo.com/news/legalzoom-announces-strategic-partnership-perplexity-130000405.html)
-- [(S2 E4) Legal Knowledge and the Magic Easy Button](https://www.youtube.com/watch?v=tSZ4nbKaUpw)
-- [From perfection paralysis to first ship](https://lawwhatsnext.substack.com/p/from-perfection-paralysis-to-first)
-- [Wordsmith AI raises $25M Series A](https://www.indexventures.com/perspectives/wordsmith-ai-raises-25m-series-a-to-deploy-ai-agents-and-transform-legal-roles/)
-- Bond Trends - Artificial Intelligence (PDF)
-- [Flank raises $10M to scale autonomous legal agents](https://blog.flank.ai/flank-raises-10m-to-scale-autonomous-legal-agents-embedded-invisible-and-built-for-the-enterprise/)
-- [Optimizing RAG for contract analysis](https://www.linkedin.com/pulse/optimizing-rag-contract-analysis-our-research-findings-robinai-bb40e/)
-- A consultant who helps law firms decide which software to buy explains why legal tech is in trouble (PDF)
-- [Built a multi-agent research system](https://www.anthropic.com/engineering/built-multi-agent-research-system)
+
+- **[TED - Eric Schmidt: The AI Revolution Is Underhyped:](https://www.ted.com/talks/eric_schmidt_the_ai_revolution_is_underhyped)** Former Google CEO's TED talk arguing AI's rate of progress is understated in mainstream discourse. Makes the case that the autonomous-task shift will run past most people's current mental models.
+- **[Jaan Larner - The Pyramid That Will Eat Itself:](https://jaanlarner.substack.com/p/the-pyramid-that-will-eat-itself-4e4)** The corporate law pyramid depends on juniors doing work GenAI now does faster and cheaper. Larner argues firms will cannibalise their own training model before they see the consequences.
+- **[SCL - The Speculative Rise of AI Agents in Legal:](https://www.scl.org/the-speculative-rise-of-ai-agents-in-legal/)** SCL critique of the hype around legal agents, asking where the genuine workflow change is vs marketing theatre. Good sobering read before approving an agent pilot budget.
+- **[Engadget - Researchers Secretly Experimented on Reddit Users with AI Comments:](https://www.engadget.com/ai/researchers-secretly-experimented-on-reddit-users-with-ai-generated-comments-194328026.html)** University of Zurich researchers ran covert AI-persuasion experiments on r/changemyview with fake identities. Reddit called it "deeply wrong" morally and legally and initiated proceedings.
+- **[LegalZoom x Perplexity Strategic Partnership:](https://finance.yahoo.com/news/legalzoom-announces-strategic-partnership-perplexity-130000405.html)** LegalZoom embeds its services inside Perplexity Pro, offering legal help directly in the search interface. Marks a new distribution model: legal services as an answer layer inside AI-native search.
+- **[YouTube - Legal Knowledge and the Magic Easy Button (S2 E4):](https://www.youtube.com/watch?v=tSZ4nbKaUpw)** Podcast episode on legal knowledge management and the "easy button" fantasy. Practical reality check for anyone expecting an AI to instantly surface all of a firm's precedent knowledge.
+- **[Law, WhatsNext - From Perfection Paralysis to First Ship:](https://lawwhatsnext.substack.com/p/from-perfection-paralysis-to-first)** Argues legal teams have swapped perfectionism for analysis paralysis around AI. Prescription: start with the problem, not the tech, and take small experimental steps rather than waiting for a master plan.
+- **[Index Ventures - Wordsmith AI Raises $25M Series A:](https://www.indexventures.com/perspectives/wordsmith-ai-raises-25m-series-a-to-deploy-ai-agents-and-transform-legal-roles/)** Wordsmith raises $25M to scale fleets of legal AI agents embedded across businesses. Pitches in-house legal as "revenue accelerators" rather than blockers.
+- **Bond Trends - Artificial Intelligence (PDF):** [Internal AG resource] Bond's market scan of AI legal and regulatory developments. Useful external perspective on the trends we are tracking.
+- **[Flank Raises $10M for Autonomous Legal Agents:](https://blog.flank.ai/flank-raises-10m-to-scale-autonomous-legal-agents-embedded-invisible-and-built-for-the-enterprise/)** Berlin-based Flank raises $10M (Insight Partners) to scale agents that redline and draft inside Slack and email. Invisible UX - no new interface for users to learn.
+- **[Robin AI - Optimising RAG for Contract Analysis:](https://www.linkedin.com/pulse/optimizing-rag-contract-analysis-our-research-findings-robinai-bb40e/)** Robin AI's findings on making RAG work for contracts: clause labels plus Voyage 3 Large embeddings retrieve just 15% of contract text for 90% recall, 85% token reduction with full-contract quality.
+- **A consultant who helps law firms decide which software to buy explains why legal tech is in trouble (PDF):** [Internal AG resource] Consultant's honest take on the legal tech buying market - too many vendors, too few wins. Worth reading before your next procurement round.
+- **[Anthropic - Built a Multi-Agent Research System:](https://www.anthropic.com/engineering/built-multi-agent-research-system)** Anthropic walks through the orchestrator-worker pattern behind Claude's research system. A lead agent plans, subagents explore in parallel, findings are synthesised - concrete blueprint if you're designing your own multi-agent workflow.
