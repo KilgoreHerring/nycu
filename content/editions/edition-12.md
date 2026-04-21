@@ -1,6 +1,6 @@
 12th Edition - 15th - 28th Feb 2025
 
-Vals AI Benchmarking Report
+[Vals AI Benchmarking Report](https://www.vals.ai/vlair)
 
 - What: The Vals Report evaluates the performance of 4 legal AI tools - CoCounsel (Thomson Reuters), Vincent AI (vLex), Harvey Assistant (Harvey), and Oliver (Vecflow) across 7 common legal tasks. These tasks include Data Extraction, Document Q&A, Document Summarisation, Redlining, Transcript Analysis, Chronology Generation, and EDGAR Research. The study benchmarks each tool's performance against a control group of lawyers (the Lawyer Baseline).
   Key findings:
@@ -13,30 +13,30 @@ Vals AI Benchmarking Report
   The study concludes that legal AI tools provide significant value in legal work, particularly in tasks involving document analysis, information retrieval, and data extraction. Certain areas such as complex research tasks still require further development to meet law firm expectations.
 - So what: This study provides a useful benchmark for evaluating our own AI tools such as Deal Clarity. Some key areas relevant to our workflows are document analysis, Q&A and extraction that we are actively trying to deal with. Our clients will be interested in this report, where the focus on refining human-AI collaboration is key in assessing AI strengths and gaps, and may help select suitable vendors.
 
-Lexis Nexis Report
+[Lexis Nexis Report](https://www.lexisnexis.co.uk/insights/innovating-the-client-experience/index.html)
 
 - What: LexisNexis has released a report on how legal service providers can improve client experience through technology and innovation. It highlights key client demands such as: Greater transparency in legal services; Faster turnaround time; Personalised legal service delivery. This Report emphasises that law firms and legal departments that fail to adopt AI and automation risk falling behind as clients increasingly expect tech-enabled efficiency.
 - So what: This Report reinforces the importance of integrating AI into client-facing workflows, not just internal use. The demand for this aligns with our work, such as exploring client dashboards that provide real-time updates (i.e. HighQ, PowerBI), refining our contract review, extraction, and analysis (i.e. Legora, Kira).
 
-Legal Transformation Drivers - Mark Cohen
+[Legal Transformation Drivers - Mark Cohen](https://www.forbes.com/sites/markcohen1/2025/02/23/legal-transformation-business--ai-and-new-suppliers-are-key-drivers/)
 
 - What: The Forbes article examines the ongoing transformation of the legal industry, driven by: AI adoption with automation reshaping contract review, compliance, and strategy; The rise of alternative legal service providers (ALSPs) which are using AI to offer cost-effective solutions that challenge traditional firms; Regulatory challenges as AI in legal services raises ethical and compliance concerns. The article underscores that firms must embrace AI and alternative service models or risk being left behind.
 - So what: The growing role of AI in legal services reinforces the need to continuously refine and expand our tools. For example, our work in developing and optimising AGPT becomes even more critical, especially with evaluating whether our AI models are delivering the depth of insight and efficiency that clients and lawyers expect. Another focus is assessing how our tools compare to AI-powered ALSPs and competitors, spotting any potential gaps in customisation, engagement and integration with existing workflows.
 
 Worth Reading:
 
-- [Lexis Nexis Report](https://www.lexisnexis.co.uk/insights/innovating-the-client-experience/index.html)
-- [Legal Transformation Drivers](https://www.forbes.com/sites/markcohen1/2025/02/23/legal-transformation-business--ai-and-new-suppliers-are-key-drivers/)
-- [Vals AI Benchmarking Report](https://www.vals.ai/vlair)
-- ["Efficiency Isn't Enough" (Mike McGinn, Medium)](https://medium.com/@mike.e.mcginn/efficiency-isnt-enough-smarter-ai-strategies-for-legal-tech-s-future-in-the-post-r1-era-part-2-c0c82e64ab5f)
-- [Microsoft's Majorana Chip - Quantum Leap?](https://news.microsoft.com/source/features/ai/microsofts-majorana-1-chip-carves-new-path-for-quantum-computing/)
-- [AI Research Smackdown - Librarians Weigh In](https://www.lawnext.com/2025/02/in-ai-smackdown-law-librarians-compare-legal-ai-research-platforms-finding-distinct-strengths-and-limitations.html)
-- Grok 3 Debuts
-- [Legal Bots in Practice](https://legalops101.substack.com/p/the-low-down-on-legal-bots)
-- [Ed Zitron's "Generative AI Con"](https://www.wheresyoured.at/longcon/)
-- [Tyler Cowen on "Slow" AI Take-Off](https://marginalrevolution.com/marginalrevolution/2025/02/why-i-think-ai-take-off-is-relatively-slow.html)
-- [Axiom's 60% Efficiency Boost (Contracts)](https://www.prnewswire.com/news-releases/axiom-announces-ai-enabled-contracting-solution-proven-to-improve-efficiency-of-contract-related-legal-tasks-by-up-to-60-302384769.html)
-- [Anthropic's Claude 3.7 - "Thinking" AI](https://www.anthropic.com/claude/sonnet)
-- [ContractPodAI launches AI App Marketplace](https://www.artificiallawyer.com/2025/02/18/contractpodai-launches-ai-app-marketplace-pwc-kpmg-join/)
-- [LexisNexis OpenAI Partner for GenAI Fine-Tuning](https://www.artificiallawyer.com/2025/02/27/lexisnexis-openai-partner-for-genai-fine-tuning/)
-- [Innovation: Everywhere, all at once?](https://mag.briefing.co.uk/2025/02/20/editorial-frontiers25-innovation/content.html)
+- **[LexisNexis - Innovating the Client Experience Report:](https://www.lexisnexis.co.uk/insights/innovating-the-client-experience/index.html)** Survey of UK legal buyers finds clients want transparency, faster turnaround and more personalised delivery. Firms that fail to invest in AI and data risk losing both clients and talent.
+- **[Forbes - Mark Cohen on Legal Transformation Drivers:](https://www.forbes.com/sites/markcohen1/2025/02/23/legal-transformation-business--ai-and-new-suppliers-are-key-drivers/)** Cohen's latest column arguing that AI, ALSPs and regulatory pressure are reshaping legal services faster than incumbents realise. A useful framing piece for leadership conversations.
+- **[Vals AI - VLAIR Benchmark:](https://www.vals.ai/vlair)** The first proper independent head-to-head of CoCounsel, Vincent AI, Harvey Assistant and Vecflow's Oliver across seven legal tasks. Harvey topped five of six, and AI beat the lawyer baseline in four tasks.
+- **[Mike McGinn - Efficiency Isn't Enough:](https://medium.com/@mike.e.mcginn/efficiency-isnt-enough-smarter-ai-strategies-for-legal-tech-s-future-in-the-post-r1-era-part-2-c0c82e64ab5f)** Post-R1 strategy piece warning that efficiency gains trigger more demand (Jevons' paradox). McGinn's prescription: right-size models, resist chasing the newest release, lean on batch and retrieval optimisation.
+- **[Microsoft - Majorana 1 Quantum Chip:](https://news.microsoft.com/source/features/ai/microsofts-majorana-1-chip-carves-new-path-for-quantum-computing/)** Microsoft unveils the first quantum chip built on a Topological Core architecture using Majorana particles. Pitches a path to 1M qubits on a single chip and useful quantum machines "in years, not decades."
+- **[LawNext - AI Smackdown: Law Librarians Weigh In:](https://www.lawnext.com/2025/02/in-ai-smackdown-law-librarians-compare-legal-ai-research-platforms-finding-distinct-strengths-and-limitations.html)** Law librarians test Lexis+AI, Westlaw Precision AI and Vincent AI on the same research tasks. Distinct strengths across the three, but all work best as starting points rather than final answers.
+- **Grok 3 Debuts:** xAI released Grok 3 with extended reasoning and deep-search capabilities alongside a big marketing push. Capability gap with the frontier is narrowing, but data, governance and safety concerns still slow most enterprise adoption.
+- **[Legal Ops 101 - The Low-Down on Legal Bots:](https://legalops101.substack.com/p/the-low-down-on-legal-bots)** Practical primer on deploying legal bots in Slack and Teams for knowledge queries, vendor contract oversight and document organisation. Good starter if you're building your first in-house legal ops automations.
+- **[Ed Zitron - The Long Con:](https://www.wheresyoured.at/longcon/)** Zitron argues GenAI is a financially unsustainable bubble built on hype, burning billions with no path to profitability. Strong contrarian read whether or not you agree with the conclusion.
+- **[Tyler Cowen - Why AI Take-Off Is Relatively Slow:](https://marginalrevolution.com/marginalrevolution/2025/02/why-i-think-ai-take-off-is-relatively-slow.html)** Cowen argues unproductive, change-resistant sectors dominate the economy and humans will become the bottleneck as AI gets better. Historical diffusion patterns support a slower ramp than the AGI hype suggests.
+- **[Axiom - AI Contracting Solution with 60% Efficiency Gain:](https://www.prnewswire.com/news-releases/axiom-announces-ai-enabled-contracting-solution-proven-to-improve-efficiency-of-contract-related-legal-tasks-by-up-to-60-302384769.html)** Axiom's "Tech+Talent" offering pairs its lawyers with DraftPilot for Word. Field-tested across 27 in-house teams: up to 60% time saved on redlining and issue spotting, 89% reporting quality improvement.
+- **[Anthropic - Claude 3.7 Sonnet with Extended Thinking:](https://www.anthropic.com/claude/sonnet)** Anthropic's first hybrid reasoning model - can answer normally or switch to extended thinking mode for harder tasks. Closes much of the gap with o1/o3 on complex reasoning while staying strong on code and writing.
+- **[Artificial Lawyer - ContractPodAi Launches Leah AI App Marketplace:](https://www.artificiallawyer.com/2025/02/18/contractpodai-launches-ai-app-marketplace-pwc-kpmg-join/)** ContractPodAi opens a marketplace of task-specific legal AI apps (e.g. DORA compliance). PwC, KPMG and Integreon signed up as launch partners alongside ContractPodAi's own apps.
+- **[Artificial Lawyer - LexisNexis and OpenAI Partner on Fine-Tuning:](https://www.artificiallawyer.com/2025/02/27/lexisnexis-openai-partner-for-genai-fine-tuning/)** LexisNexis embedding OpenAI APIs across its products and co-developing fine-tuned legal models. Useful data point on how the big legal publishers are positioning against the foundation model labs.
+- **[Briefing - Frontiers 2025: Innovation Everywhere, All at Once?:](https://mag.briefing.co.uk/2025/02/20/editorial-frontiers25-innovation/content.html)** Briefing's annual innovation survey: 36% of firms expect a significant rise in innovation requests. The biggest constraint isn't money, it's change overload and competing priorities.

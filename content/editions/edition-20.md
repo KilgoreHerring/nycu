@@ -1,12 +1,12 @@
 20th Edition - 15th - 30th June 2025
 
-- AI is breaking the law firm pyramid model:
+- [AI is breaking the law firm pyramid model](https://www.forbes.com/sites/markcohen1/2025/06/17/ai-the-partnership-models-coup-de-grace-and-enabler-of-whats-next/)
 	- What: Mark Cohen explains how AI is challenging the traditional law firm model, which relies on a pyramid of junior lawyers doing routine, time-based work. As AI takes over many of these repeatable tasks it reduces the need for large teams of juniors.
 	- So what: This directly relates to our work with our tech stack. As our tools handle more of the routine and junior-level work, we should rethink how junior lawyers are deployed, such as moving them to roles focused on overseeing AI outputs, strategy, and client interactions.
-- Lexis x Harvey - strategic alliance:
+- [Lexis x Harvey - strategic alliance](https://www.artificiallawyer.com/2025/06/18/lexisnexis-harvey-announce-alliance-will-share-legal-data/)
 	- What: LexisNexis and Harvey have struck a strategic alliance, integrating Lexis's legal databases directly into Harvey's platform. This will allow users to generate answers based on primary law content, with citation-backed responses and custom workflows.
 	- So what: This move reinforces the growing demand for legal AI tools that are deeply connected to trusted content. It is an interesting move from Lexis and leaves the wider market a bit open for others to work with content providers.
-- A guide to using AI tools properly right now:
+- [A guide to using AI tools properly right now](https://www.oneusefulthing.org/p/using-ai-right-now-a-quick-guide)
 	- What: Ethan Mollick advises that serious AI users should choose from three leading platforms (ChatGPT, Claude, or Gemini) and emphasises that model selection is key.
 	- So what: This guidance affirms the need for model-tier transparency in our tools. We are testing different models on AGPT for this reason to ensure that we are selecting the right model for different tasks.
 

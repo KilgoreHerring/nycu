@@ -1,10 +1,10 @@
 24th Edition - 15th - 31st Aug 2025
 
-PromptQL -- Being 'Confidently Wrong' is holding AI back
+[PromptQL - Being 'Confidently Wrong' is holding AI back](https://promptql.io/blog/being-confidently-wrong-is-holding-ai-back)
 - What: The article warns that AI's biggest problem is not messy data or bad models -- it is being wrong with confidence. "Confidently wrong" systems mean users spend more time checking the AI than benefitting from it. Even a small error rate (like 10%) in multi-step workflows often results in two out of three attempts failing. The article suggests that AI should instead admit uncertainty when needed and get smarter over time, through a learning loop that combines machine confidence with human feedback.
 - So what: This insight hits home: to gain trust and increase adoption, we should prioritise systems that can indicate when they are unsure, learn from corrections to improve over time, and help users level up rather than relying on blind trust. For example, positive feedback from lawyers testing playbooks on Clausebuddy highlighted that it flags clauses that it lacked information on and should be looked into manually.
 
-Artificial Lawyer -- Stop Calling Workflows 'Agents'
+[Artificial Lawyer - Stop Calling Workflows 'Agents'](https://www.artificiallawyer.com/2025/08/26/stop-calling-workflows-agents-a-guide-to-real-agentic-ai/)
 - What: The article pushes back on the trend of labelling any automated workflow as an "AI agent". It argues that true agentic AI should operate end-to-end, meaning no human intervention between steps. A genuine agentic system could receive a request, follow workflow seamlessly, handle exceptions, and reroute actions when needed -- all autonomously.
 - So what: When building and promoting AI workflows, accuracy in labels matters. Calling something "agentic" sets expectations -- autonomy, continuity, and decision-making. If experimenting with multi-step task flows, design and build for true autonomy, otherwise address them as "assisted workflows".
 

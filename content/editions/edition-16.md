@@ -1,6 +1,6 @@
 16th Edition - 15th - 30th April 2025
 
-- The Lawyer - Innovation Map
+- [The Lawyer - Innovation Map](https://www.thelawyer.com/mda/report/the-lawyers-innovation-map/)
 	What: Based on insights from over 30 firms, the report introduces a framework categorizing firms into seven distinct innovation profiles:
 	- Accelerators: Firms rapidly advancing their innovation initiatives.
 	- Developers: Firms investing heavily in software development and building products from scratch
@@ -10,34 +10,35 @@
 	- Pivoters: Firms undergoing significant strategic shifts in their innovation approach.
 	- Specialists: Firms focusing innovation in niche areas or specific services.
 	Addleshaw Goddard is classed as an "Experimenter" for its transparent, research-driven approach to GenAI and innovation.
-- HBR - How people are really using GenAI in 2025
+- [HBR - How people are really using GenAI in 2025](https://hbr.org/2025/04/how-people-are-really-using-gen-ai-in-2025)
 	- What: The article based on surveys of over 1,000 GenAI users reveals that while adoption has grown significantly in 2025, most people still use GenAI for simple tasks like drafting emails or summarising content. Few users experiment with more advanced, workflow-embedded use cases. The gap between casual and power users is widening, and companies that provide training or templates see more consistent and productive usage.
 	- So what: This highlights the importance of investing in targeted GenAI enablement within our firm. Supporting structured experimentation is important, some of which we are already doing such as prompt libraries, workflow-specific use cases, firmwide training, and short live demos. The focus is on how to move our lawyers from casual users to confident operators.
-- TR GenAI Professional Services Report
+- [TR GenAI Professional Services Report](https://www.thomsonreuters.com/en-us/posts/technology/genai-professional-services-report-2025/)
 	- What: Thomson Reuters' 2025 report on GenAI in professional services shows accelerating adoption across legal, tax, and compliance sectors. While ~70% of professionals are using GenAI in some form, ~65% cite concerns about trust and reliability. Clients increasingly expect GenAI integration in service delivery, but only less than 10% of firms feel fully prepared to meet this expectation.
 	- So what: Clients are beginning to ask smarter questions about how GenAI fits into legal service delivery. We can take the lead in client conversations by showing how we validate GenAI outputs, apply clear use-case boundaries, and focus on transparency.
-- Microsoft Work Trend Index
+- [Microsoft Work Trend Index](https://blogs.microsoft.com/blog/2025/04/23/the-2025-annual-work-trend-index-the-frontier-firm-is-born/)
 	- What: Microsoft's annual Work Trend Index surveyed 31,000 people and analysed Microsoft 365 data to identify how AI is transforming work. "Frontier firms", defined as organisations where AI is deeply embedded in operations, are now 60% more likely to experience productivity gains.
 	- So what: This is a useful benchmark. As we explore tools like Copilot Studio, AGPT, and AI-enhanced workflows, we should also focus on system-level support: e.g., prompt libraries, cross-functional AI upskilling, and internal policies that guide responsible experimentation.
 
 Worth Reading:
-- [How People Are Really Using Gen AI in 2025](https://hbr.org/2025/04/how-people-are-really-using-gen-ai-in-2025)
-- [Legal AI Benchmarking: Evaluating Long Context Performance for LLMs](https://blogs.thomsonreuters.com/en-us/innovation/legal-ai-benchmarking-evaluating-long-context-performance-for-llms)
-- [2025 Generative AI in Professional Services Report](https://www.thomsonreuters.com/en-us/posts/technology/genai-professional-services-report-2025/)
-- [Introducing OpenAI's o3 and o4-mini Models](https://openai.com/index/introducing-o3-and-o4-mini/)
-- [GPT-4.1 Prompting Guide](https://cookbook.openai.com/examples/gpt4-1_prompting_guide)
-- [Why Lawyers Will Never Use Google Docs](https://theredline.versionstory.com/p/why-lawyers-will-never-use-google-edd)
-- [The Top 15 Most Recommended Legal AI Vendors](https://www.artificiallawyer.com/2025/04/22/the-top-15-most-recommended-legal-ai-vendors-are/)
-- [On Jagged AGI, o3, Gemini 2.5, and Everything](https://www.oneusefulthing.org/p/on-jagged-agi-o3-gemini-25-and-everything)
-- [The Lawyer's Innovation Map](https://www.thelawyer.com/mda/report/the-lawyers-innovation-map/)
-- [There Are No Winners When It Comes to Innovation](https://www.thelawyer.com/curve-there-are-no-winners-when-it-comes-to-innovation/)
-- [Innovation in the Services Industry: Inside $3B White & Case](https://www.innovationleader.com/topics/articles-and-content-by-topic/scouting-trends-and-tech/innovation-in-the-services-industry-inside-3b-white-case/)
-- [Prompt Engineering Is Complicated and Contingent](https://ai-analytics.wharton.upenn.edu/generative-ai-labs/research-and-technical-reports/tech-report-prompt-engineering-is-complicated-and-contingent/)
-- [LexisNexis's GenAI Strategy – Min Chen, Chief AI Officer](https://www.artificiallawyer.com/2025/04/24/lexisnexiss-genai-strategy-min-chen-chief-ai-officer/)
-- [The 2025 Annual Work Trend Index: The Frontier Firm Is Born](https://blogs.microsoft.com/blog/2025/04/23/the-2025-annual-work-trend-index-the-frontier-firm-is-born/)
-- [GenAI Finds Its Voice](https://www.lawgazette.co.uk/features/genai-finds-its-voice/5123105.article)
-- [Inside the AI Boom That's Transforming How Consultants Work at McKinsey, BCG, and Deloitte](https://www.ft.com/content/33dfaec4-b5e7-4eca-a869-cdd33d447e65)
-- [Prompt Engineering Is the New Drafting](https://www.artificiallawyer.com/2025/04/30/prompt-engineering-is-the-new-drafting/)
-- [Legal Industry's First Behavioural Science AI-Based Knowledge Amplification Tool](https://www.kingsleynapley.co.uk/our-news/press-releases/legal-industrys-first-behavioural-science-ai-based-knowledge-amplification-tool-kingsley-napley-and-lets-think-collaborate)
-- OpenAI Agent Guidance (PDF)
-- [OpenAI Academy](https://academy.openai.com/)
+
+- **[HBR - How People Are Really Using GenAI in 2025:](https://hbr.org/2025/04/how-people-are-really-using-gen-ai-in-2025)** Survey-based read on everyday GenAI usage. Most users stay in the shallow end (emails, summaries), power users stretch further, and firms with templates and training see materially higher adoption depth.
+- **[Thomson Reuters - Legal AI Benchmarking: Long Context Performance:](https://blogs.thomsonreuters.com/en-us/innovation/legal-ai-benchmarking-evaluating-long-context-performance-for-llms)** TR's internal benchmark on how frontier LLMs actually cope with long legal documents. Useful reality check if you're buying based on context window size alone.
+- **[Thomson Reuters - 2025 GenAI in Professional Services Report:](https://www.thomsonreuters.com/en-us/posts/technology/genai-professional-services-report-2025/)** Adoption up across legal, tax and compliance (~70% using GenAI) but trust still a drag (~65% flagging reliability). Fewer than 10% feel ready for client AI demands.
+- **[OpenAI - Introducing o3 and o4-mini:](https://openai.com/index/introducing-o3-and-o4-mini/)** New reasoning model generation. o3 is the flagship for complex multi-step reasoning, o4-mini is a lower-cost version aimed at agentic workloads.
+- **[OpenAI Cookbook - GPT-4.1 Prompting Guide:](https://cookbook.openai.com/examples/gpt4-1_prompting_guide)** Official guidance on getting the best out of GPT-4.1. Covers the quirks of the new model's instruction-following, agentic workflows and tool use.
+- **[VersionStory - Why Lawyers Will Never Use Google Docs:](https://theredline.versionstory.com/p/why-lawyers-will-never-use-google-edd)** Tight piece on the specific reasons Word keeps the legal market - all-or-nothing adoption, no commit atomicity, and weak version / approvals tracking. Bleedingly obvious once pointed out.
+- **[Artificial Lawyer - Top 15 Most Recommended Legal AI Vendors:](https://www.artificiallawyer.com/2025/04/22/the-top-15-most-recommended-legal-ai-vendors-are/)** Skills.law's NPS-style survey of ~100 firms. Top 15 includes DeepJudge, Centari, Syntheia, Lega, Legora, vLex, DraftWise, Definely and StructureFlow.
+- **[Ethan Mollick - On Jagged AGI, o3, Gemini 2.5, and Everything:](https://www.oneusefulthing.org/p/on-jagged-agi-o3-gemini-25-and-everything)** Mollick on the new reasoning wave. Capabilities are superhuman in places and fragile in others - "jagged AGI" - but agentic behaviour now changes the integration picture.
+- **[The Lawyer - Innovation Map:](https://www.thelawyer.com/mda/report/the-lawyers-innovation-map/)** The Lawyer's seven-profile framework for UK firm innovation (Accelerators, Developers, Experimenters, Full Service, Going Steady, Pivoters, Specialists). AG appears as an Experimenter.
+- **[The Lawyer - There Are No Winners in Innovation:](https://www.thelawyer.com/curve-there-are-no-winners-when-it-comes-to-innovation/)** Commentary arguing firms conflate activity with achievement. Budget, announcements and pilots don't equal business-model change.
+- **[Innovation Leader - Inside $3B White & Case:](https://www.innovationleader.com/topics/articles-and-content-by-topic/scouting-trends-and-tech/innovation-in-the-services-industry-inside-3b-white-case/)** Detailed profile of how White & Case runs innovation across practice areas. Useful benchmark for firms building internal innovation functions.
+- **[Wharton GAIL - Prompt Engineering Is Complicated and Contingent:](https://ai-analytics.wharton.upenn.edu/generative-ai-labs/research-and-technical-reports/tech-report-prompt-engineering-is-complicated-and-contingent/)** Wharton's empirical finding that "best" prompts vary wildly by task, model and context. Strong evidence against one-size-fits-all prompt libraries.
+- **[Artificial Lawyer - LexisNexis GenAI Strategy with Min Chen:](https://www.artificiallawyer.com/2025/04/24/lexisnexiss-genai-strategy-min-chen-chief-ai-officer/)** LN's Chief AI Officer on a multi-model strategy: 30+ models tested, fine-tuned SLMs, knowledge graphs and agents, quality over cost. Clear view of where a major legal publisher is betting.
+- **[Microsoft - 2025 Work Trend Index: The Frontier Firm Is Born:](https://blogs.microsoft.com/blog/2025/04/23/the-2025-annual-work-trend-index-the-frontier-firm-is-born/)** Annual WTI based on 31,000 respondents plus M365 telemetry. "Frontier firms" with AI deeply embedded are 60% more likely to be seeing productivity gains.
+- **[Law Gazette - GenAI Finds Its Voice:](https://www.lawgazette.co.uk/features/genai-finds-its-voice/5123105.article)** UK feature on the shift toward voice-first legal AI and "digital colleague" framing. Covers Kingsley Napley's Knowledge Exchange and other firm-vendor partnerships.
+- **[FT - Inside the AI Boom Transforming McKinsey, BCG, and Deloitte:](https://www.ft.com/content/33dfaec4-b5e7-4eca-a869-cdd33d447e65)** FT on how the Big Three consultancies are rewiring their delivery model around AI. Direct read-across for how large professional services businesses (including law) restructure billable work.
+- **[Artificial Lawyer - Prompt Engineering Is the New Drafting:](https://www.artificiallawyer.com/2025/04/30/prompt-engineering-is-the-new-drafting/)** Argues the core lawyer skill is shifting from writing clauses to codifying judgment as structured prompts. Makes the case that this actually raises the bar on "why" reasoning.
+- **[Kingsley Napley - Behavioural Science AI Knowledge Amplification Tool:](https://www.kingsleynapley.co.uk/our-news/press-releases/legal-industrys-first-behavioural-science-ai-based-knowledge-amplification-tool-kingsley-napley-and-lets-think-collaborate)** Kingsley Napley with Let's Think launch The Knowledge Exchange, a conversational tool that captures senior lawyer expertise and surfaces it to juniors. Interesting approach to the institutional knowledge problem.
+- **OpenAI Agent Guidance (PDF):** [Internal AG resource] OpenAI's practitioner guidance on building agents - planning, tool use, evaluation, safety. Good reading for anyone designing agentic workflows.
+- **[OpenAI Academy:](https://academy.openai.com/)** OpenAI's free learning platform: workshops, digital content and events covering AI literacy through to developer integration. Worth pointing staff towards as a foundational resource.

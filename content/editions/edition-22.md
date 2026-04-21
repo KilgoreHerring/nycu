@@ -6,7 +6,7 @@
 - [Stare Decisis to Foresight: A Legal Mindset for the AI-Era World](https://www.forbes.com/sites/markcohen1/2025/07/23/stare-decisis-to-foresight--a-legal-mindset-for-the-ai-era-world/):
 	- What: Mark Cohen calls for a fundamental shift in the legal mindset: from a reliance on precedent to forward-thinking adaptability.
 	- So what: The message aligns with our own transformation journey. It is a reminder that adapting to AI isn't just about tech deployment; it is about the mindset and culture shift.
-- The Agent Company – Benchmarking LLM Agents (PDF):
+- [The Agent Company - Benchmarking LLM Agents (PDF)](https://myag365.sharepoint.com/:b:/r/sites/InnovationLegalTech/Shared%20Documents/Research%20and%20Development/Reading/The%20Agent%20Company%20-%20benchmarking%20LLM%20Agents.pdf?csf=1&web=1&e=5WQcZ0):
 	- What: TheAgentCompany's benchmark assesses how well AI agents can perform authentic workplace tasks. The most capable agents completed about 24–30% of tasks autonomously – they were successful at more straightforward tasks but largely failing on long-horizon, complex workflows.
 	- So what: These findings highlight the importance of evaluating AI not just by single outputs but by multi-step task performance. It offers a valuable blueprint for how we could test legal agents in a controlled environment before broader rollout.
 

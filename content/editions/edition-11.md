@@ -1,6 +1,6 @@
 11th Edition - 1st - 14th Feb 2025
 
-Linklaters AI Benchmark
+[Linklaters AI Benchmark](https://www.linklaters.com/insights/blogs/digilinks/2023/october/uk---the-linksai-english-law-benchmark)
 
 - What: Links have updated their AI Benchmark to now include Open AI's o1 and Google's Gemini 2.0 models. This is a test to decide whether LLMs can answer substantive legal questions. The test consists of 50 questions across 10 practice areas and is marked by Linklater's lawyers. They conclude that whilst these new models are better, they are not to be relied upon without human expert supervision.
 - So what: This is a great look into LLMs answering legal questions and a dive into the concept of whether they are getting to a position to be relied upon for legal advice. i.e. how far away are we from replacing lawyers? This is a different test to what we are doing as we are focused on review and extraction at the moment, but interesting nonetheless in showing that o1 is getting much closer to a lawyer level answer to some of these queries. We may only be one or two versions away from sufficiently good AI to give good answers to legal queries.
@@ -10,7 +10,7 @@ Updates from OpenAI GPT 5
 - What: OpenAI are aiming to simplify their model offerings, planning to drop 'o3' and focus on GPT-5 as the next release, building in reasoning capabilities, deep research, multi-modal skills and task abilities. This is partly to stop the confusion around so many models all doing different things and also to show the flexibility of the new developments. This will also see an imminent release of GPT 4.5 to boost the quality of the models (possibly in response to Deepseek) before a later release of GPT 5.
 - So what: Merging all the abilities and skills into one overarching model will be very powerful but may require a rethink as to how tools like AGPT work, with a change in the way we prompt and send data to the model. It also builds in image and voice into one place, meaning that if we wanted to look at doing this with AGPT we could rely solely on GPT-5 to build this out. General progress in this space is super quick at the moment, with the new Gemini model being capable of 2 million input tokens also being released.
 
-Kings College Hackathon
+[Kings College Hackathon](https://www.kcl.ac.uk/news/kings-hosts-inaugural-legal-generative-ai-hackathon)
 
 - What: King College London held a hackathon with their law students, Ashurst, Charles Russell Speechlys, Linklaters, and PWC. Students were given use cases and tasked with solving a problem using a LLM. They needed to show they understood the problem, apply the LLM method, and prove their solution worked. The winning solution automated the creation of deal bibles. The KCL team developed a solution trained on final and draft documents, using example and validation prompting to identify final documents and automate the creation of a finalised bible with a pre-intake form.
 - So what: This is a problem we are also trying to solve. The solution from the KCL team looks like a "deal bible" management platform, where the lifecycle of a deal bible can be tracked and automated, risks identified, and key dashboards developed. Despite limited resources, KCL achieved good results in training the LLM to identify and distinguish final documents. Their main issue was a lack of training data, which would not be as much of an issue for us at AG, as we can work with our groups and knowledge lawyers to access completed bibles and final and draft documents. There is also potential to train on in-house legal templates, making this part of our LTC/TDS/MLS offering.
@@ -21,17 +21,17 @@ Considerations: AG's bibles are typically linked to matters, which would likely 
 
 Worth Reading:
 
-- [CMS data backed legal LLM](https://xayn.com/noxtua-aimodels)
-- EU AI Act - Literacy requirement comes into force early Feb (PDF)
-- [OpenAI Deep Research release](https://openai.com/index/introducing-deep-research/)
-- [Update to Vals AI benchmark](https://www.vals.ai/home)
-- [Article about the art of the possible with AI](https://jordanfurlong.substack.com/p/heading-to-the-far-end-of-the-spectrum)
-- One SaaS Agreement released (PDF)
-- [ROSS AI Decision against TR](https://www.theverge.com/news/610721/thomson-reuters-ross-intelligence-ai-copyright-infringement)
-- [Mistral Le Chat new version released](https://mistral.ai/en/news/le-chat-mistral)
-- [Harvey new fundraise](https://www.harvey.ai/blog/harvey-raises-series-d)
-- [Innovation Paradox](https://innov8rs.co/news/rethinking-innovation-value-measuring-impact-and-securing-executive-buy-in/)
-- [Hill Dickinson AI Ban](https://www.bbc.co.uk/news/articles/cglyjn7le2ko)
-- [UK Legal Tech Companies](https://www.thelawyer.com/tapping-into-a-50bn-market-how-uk-legaltechs-are-taking-on-america/)
-- Linklaters AI Benchmark (PDF)
-- [Vendor opinions on billable hour](https://natlawreview.com/article/legal-ai-unfiltered-16-tech-leaders-ai-replacing-lawyers-billable-hour-and)
+- **[Xayn - Noxtua, CMS-Backed Legal LLM:](https://xayn.com/noxtua-aimodels)** CMS teamed up with Xayn to train a German-law-focused sovereign legal LLM (Noxtua) on CMS data. One of the first serious "firm-bespoke model" plays in Europe.
+- **EU AI Act - Literacy requirement comes into force early Feb (PDF):** [Internal AG resource] Overview of the Article 4 AI literacy obligation that took effect on 2 February 2025. Covers who needs training, what "sufficient literacy" looks like, and what firms should be doing now.
+- **[OpenAI - Introducing Deep Research:](https://openai.com/index/introducing-deep-research/)** OpenAI's research agent that autonomously browses, reads, and synthesises across the web to produce long-form reports with citations. Built on a version of o3 and aimed at knowledge-work tasks that would take a human hours.
+- **[Vals AI Benchmark Update:](https://www.vals.ai/home)** Independent benchmarking platform running domain-specific evaluations on frontier models, including a Legal Case Law benchmark. Treated as a more trusted source than vendor-provided metrics.
+- **[Jordan Furlong - Heading to the Far End of the Spectrum:](https://jordanfurlong.substack.com/p/heading-to-the-far-end-of-the-spectrum)** Furlong argues GenAI is moving faster than lawyers admit and is already at mid-level associate capability. His call: stop being reasonable and take aggressive positions on where your practice goes.
+- **One SaaS Agreement released (PDF):** [Internal AG resource] Summary of the "One SaaS" agreement - a standardised SaaS template designed to speed up vendor onboarding. Useful reference for procurement and IT contracting work.
+- **[The Verge - Thomson Reuters Wins ROSS Intelligence AI Copyright Case:](https://www.theverge.com/news/610721/thomson-reuters-ross-intelligence-ai-copyright-infringement)** First major US court ruling on AI training data, finding ROSS infringed TR's Westlaw headnotes. Important early signal on how fair-use arguments land when the outputs compete commercially with the source.
+- **[Mistral - Le Chat:](https://mistral.ai/en/news/le-chat-mistral)** New release of Mistral's conversational assistant with a faster inference stack and an enterprise version that can be self-hosted. Keeps the European open-weights option viable alongside the US labs.
+- **[Harvey - Series D ($300M at $3B Valuation):](https://www.harvey.ai/blog/harvey-raises-series-d)** Sequoia led the round with Coatue, Kleiner Perkins, OpenAI Startup Fund and others. Harvey jumped from 40 to 235 customers across 42 countries in 2024 and is now deployed in most of the top 10 US firms.
+- **[Innov8rs - The Innovation Paradox:](https://innov8rs.co/news/rethinking-innovation-value-measuring-impact-and-securing-executive-buy-in/)** Traditional ROI measures don't capture early-stage innovation value. The piece proposes a stage-gated portfolio approach using learning metrics early, engagement metrics in the middle, and financial metrics only for commercialised output.
+- **[BBC - Hill Dickinson AI Ban:](https://www.bbc.co.uk/news/articles/cglyjn7le2ko)** Hill Dickinson temporarily restricted staff AI tool use after detecting significant unsanctioned usage across ChatGPT, Copilot and Google Gemini. Useful case study for any firm weighing permissive vs restrictive AI policies.
+- **[The Lawyer - How UK Legaltechs Are Taking on America:](https://www.thelawyer.com/tapping-into-a-50bn-market-how-uk-legaltechs-are-taking-on-america/)** Profile of UK legal tech companies expanding into the $50bn US market. Good read for understanding where the UK scene sits competitively and which players have serious transatlantic ambition.
+- **Linklaters AI Benchmark (PDF):** [Internal AG resource] Updated Linklaters AI benchmark including o1 and Gemini 2.0, tested on 50 substantive legal questions across 10 practice areas and marked by Linklaters lawyers. Conclusion: stronger than before, still not safe without expert supervision.
+- **[National Law Review - Legal AI Unfiltered: 16 Tech Leaders on Replacing Lawyers and the Billable Hour:](https://natlawreview.com/article/legal-ai-unfiltered-16-tech-leaders-ai-replacing-lawyers-billable-hour-and)** Sixteen legal tech CEOs weigh in. Consensus: AI won't replace lawyers wholesale but will accelerate the move to fixed-fee and value-based pricing, even if the hourly rate won't disappear overnight.

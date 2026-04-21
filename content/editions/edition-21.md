@@ -1,14 +1,14 @@
 21st Edition - 1st - 14th July 2025
 
-BCG – AI at Work: Momentum Builds, but Gaps Remain
+[BCG - AI at Work: Momentum Builds, but Gaps Remain (PDF)](https://myag365.sharepoint.com/:b:/r/sites/InnovationLegalTech/Shared%20Documents/Research%20and%20Development/Reading/ai-at-work-2025-slideshow-june-2025-edit-02.pdf?csf=1&web=1&e=wfs5tV)
 - What: Based on a 10K+ employee global survey, BCG's AI at Work 2025 report reveals critical insights about how generative AI is being adopted, or rather under-adopted, at work. While leadership and technology roles report frequent weekly usage, only around 51% of frontline employees use AI regularly. Key barriers include lack of sufficient training (only 36% feel adequately prepared) and limited access to the right tools, which leads to unauthorised "shadow AI" use (over one-third reported).
 - So what: This highlights the importance of user training, access, and leadership alignment that is crucial for adoption of tools like AGPT and our tech stack. To achieve meaningful impact, our rollout strategy should include micro-training, coaching, and clearly defined workflows, not just rollout communications. Potential to use this as leverage for our AI workshops - indicating the need for engagement and training across the business.
 
-Freshfields launches Legal Tech Master's for New Lawyers
+[Freshfields launches Legal Tech Master's for New Lawyers](https://www.thelawyer.com/freshfields-preps-next-gen-lawyers-by-launching-legal-tech-masters-degree/)
 - What: Freshfields has announced a fully funded LLM (Masters) in Law & Technology co-delivered with King's College London for incoming trainee solicitors. The firm covers full tuition and offers a £20,000 stipend.
 - So what: This sets a clear benchmark: clients and competitors increasingly expect deeper tech understanding among legal teams. We should highlight skills development such as AI prompt literacy, tool training, and innovation fluency as core to our own team's strength.
 
-"I'm losing all trust in the AI industry" – The Algorithmic Bridge
+["I'm losing all trust in the AI industry" - The Algorithmic Bridge](https://www.thealgorithmicbridge.com/p/im-losing-all-trust-in-the-ai-industry)
 - What: The article expresses deep scepticism about the AI industry's trajectory, highlighting problems like excessive hype, economic instability, talent churn, and unclear technical roadmaps to AI breakthroughs. It compares the current phase of AI to a repetition of the dot-com bubble.
 - So what: This helps frame why responsible use, transparency, and grounded expectations matter, both internally and with clients. We should continue centering our messaging around practicality, oversight, and user feedback, not tech jargon or grand promises.
 

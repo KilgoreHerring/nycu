@@ -8,7 +8,7 @@
 - What: LegalBenchmarks' latest study tested 13 AI platforms alongside a group of in-house lawyers, scoring outputs on reliability, usefulness, and workflow support. The results show that AI is increasingly capable of producing reliable first drafts. Some models even outperformed top lawyers on certain reliability metrics.
 - So what: This highlights that hybrid approaches are now the most practical way to work: AI can take on the bulk of routine drafting, while lawyers provide critical oversight, commercial context, and final judgment.
 
-GDPeval -- Evaluating AI on real-world tasks (document)
+[GDPeval - Evaluating AI on real-world tasks (PDF)](https://myag365.sharepoint.com/:b:/r/sites/InnovationLegalTech/Shared%20Documents/Research%20and%20Development/Reading/GDPeval%20-%20Evals%20on%20real%20world%20tasks.pdf?csf=1&web=1&e=p2rkaV)
 - What: OpenAI has introduced GDPval, a new benchmark designed to test how well AI models perform tasks that matter in the real world. GDPval covers 44 occupations across nine sectors with tasks such as legal briefs, slide decks, reports, spreadsheets, etc.
 - So what: This matters a lot for us because GDPval gives a more grounded way to measure how capable AI is in assisting with real legal work. This is very similar to our AI Benchmarking work in R&D and we can learn a lot from this structured approach.
 

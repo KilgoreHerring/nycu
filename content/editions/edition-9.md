@@ -22,16 +22,16 @@ AGI ([Sam Altman](https://blog.samaltman.com/) + [Gary Marcus](https://garymarcu
 
 Worth Reading:
 
-- [Gary Marcus dive into common sense reasoning](https://garymarcus.substack.com/p/ai-still-lacks-common-sense-70-years)
-- [Deepdive into what is genuine Agentic AI](https://answerrocket.com/the-big-agentic-ai-hoax/)
-- [eDiscovery trends for 2025](https://www.law.com/legaltechnews/2025/01/06/legal-techs-predictions-for-e-discovery-in-2025/?slreturn=20250107123513)
-- Spellbook Playbooks release indicating push into in-house rather than just law firms.
-- [Sam Altman (Open AI) latest update](https://blog.samaltman.com/)
-- [Legal Tech Hub Column on new trends](https://www.legaltechnologyhub.com/contents/new-year-new-tech-realities/)
-- [Market overview](https://medium.com/point-nine-news/the-agents-are-coming-winter-is-not-6232601fa0fd)
-- [Interview with Salesforce CEO](https://www.thetwentyminutevc.com/marc-benioff-2)
-- Detailed Report on Agents from Google (PDF)
-- The UK's Plan for AI (PDF)
-- UK AI Plan Write Up from Zaki - UK Gov Action Plan on AI
-- [Clarilis 10 Principles for AI Drafting](https://www.clarilis.com/blog/10-principles-genai-legal-drafting)
-- [Further Comments: AI Agents](https://www.youtube.com/watch?v=3I48d358E6o)
+- **[Gary Marcus - AI Still Lacks Common Sense:](https://garymarcus.substack.com/p/ai-still-lacks-common-sense-70-years)** Seventy years after McCarthy first flagged it, frontier systems still fumble basic physical and social reasoning. Useful counterweight to the end-of-year AGI hype cycle.
+- **[AnswerRocket - The Big Agentic AI Hoax:](https://answerrocket.com/the-big-agentic-ai-hoax/)** Argues most "agentic" products are predefined workflows dressed up as autonomy. Sets out what a real agent should do: chain-of-thought reasoning, self-correction, autonomous tool use, and built-in verification.
+- **[Law.com - Legal Tech Predictions for E-Discovery in 2025:](https://www.law.com/legaltechnews/2025/01/06/legal-techs-predictions-for-e-discovery-in-2025/?slreturn=20250107123513)** Law.com's annual round-up of practitioner predictions for e-discovery in the year ahead. Worth a skim to see where the vendors and providers are pointing.
+- **Spellbook Playbooks release:** Spellbook has pushed its Playbook feature out to in-house teams - users write rules to assess drafts in Word and get automated markup, explanations and comments. Performance is strong on simple documents and patchy on complex clauses, but the in-house orientation is the notable shift.
+- **[Sam Altman - What I Wish Someone Had Told Me:](https://blog.samaltman.com/)** Altman distils 17 leadership principles from his OpenAI tenure. Short, readable, and a useful window into how he thinks about compounding advantage and fast iteration.
+- **[Legal Tech Hub - New Year, New Tech Realities:](https://www.legaltechnologyhub.com/contents/new-year-new-tech-realities/)** LTH's opening column for 2025, flagging the big technology announcements and where the market is heading. Sets the scene for the year ahead.
+- **[Point Nine - The Agents Are Coming, Winter Is Not:](https://medium.com/point-nine-news/the-agents-are-coming-winter-is-not-6232601fa0fd)** Christoph Janz argues scaling may plateau but value delivery from AI continues. Startups will own the "last mile" of integration, reliability and governance that foundation models cannot solve alone.
+- **[20VC Interview with Marc Benioff:](https://www.thetwentyminutevc.com/marc-benioff-2)** Benioff says LLMs are commoditising and the market will shift toward smaller vertical models. Notable for his explicit worry about Salesforce "becoming a database" in the agentic era.
+- **Detailed Report on Agents from Google (PDF):** [Internal AG resource] Google's deep-dive on agent architectures covering planning, tool use, memory, and orchestration. Useful grounding document if you are building agent workflows.
+- **The UK's Plan for AI (PDF):** [Internal AG resource] Full text of the UK Government AI Opportunities Action Plan. Covers economic growth, ethics, skills, infrastructure and public trust, and proposes a National Data Library for AI training.
+- **UK AI Plan Write Up from Zaki - UK Gov Action Plan on AI:** [Internal AG resource] Zaki's firm-side summary of the AI Opportunities Action Plan. Shorter read for the headline implications without the full document.
+- **[Clarilis - 10 Principles for AI Drafting:](https://www.clarilis.com/blog/10-principles-genai-legal-drafting)** Clarilis sets out 10 principles for bringing GenAI into legal drafting. Core takes: precedents still beat LLM output, stay model-agnostic, label content origins, and build in opt-outs.
+- **[Further Comments: AI Agents:](https://www.youtube.com/watch?v=3I48d358E6o)** Video commentary on where AI agents actually land for in-house legal teams. Worth a watch if you are shaping agent roadmaps for corporate legal.

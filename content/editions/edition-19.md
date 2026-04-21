@@ -3,10 +3,10 @@
 - [Built a multi-agent research system](https://www.anthropic.com/engineering/built-multi-agent-research-system)
 	- What: Anthropic showcases how multi-agent AI systems can collaborate on complex research. These agents are not just parallel workers: they assign roles, plan workflows, and critique each other's outputs, simulating how teams of people might collaborate.
 	- So what: This opens the door for truly modular, coordinated AI systems - a direction that aligns with some of our aspirations around AGPT or any multi-step automation flows we are building. We can now think beyond "one prompt = one output" and explore more agent-style execution.
-- Fearless Future. Jobs Report - PWC (PDF)
+- [Fearless Future - Jobs Report - PwC (PDF)](https://myag365.sharepoint.com/:b:/r/sites/InnovationLegalTech/Shared%20Documents/Research%20and%20Development/Reading/Fearless%20Future.%20Jobs%20Report%20-%20PWC.pdf?csf=1&web=1&e=OfCK3F)
 	- What: PwC analyses over half a billion job postings globally and finds that jobs requiring AI skills are growing 3.5 times faster than average, with a 25% wage premium. More importantly, the report identifies that GenAI amplifies human capability rather than replaces it, especially in legal, finance, and compliance sectors.
 	- So what: This validates our focus on AI-human collaboration, not replacement. We can use this data to support upskilling conversations internally and reassure clients that our approach is augmentation-first.
-- Microsoft Work Index Report Briefing
+- [Microsoft Work Index Report Briefing](https://techcommunity.microsoft.com/blog/healthcareandlifesciencesblog/microsofts-work-trend-index-annual-report-2025-key-findings/4421433)
 	- What: Microsoft's video presentation of its 2025 Work Trend Index reveals key trends: AI adoption is mainstreaming - 78% of professional service leaders agree that digital labour can close capacity gaps. AI is transforming collaboration. Leaders are investing in AI training. Ethics and governance are top focus areas, with more than 50% of firms implementing new AI policies.
 	- So what: While we develop tools like AGPT and embed GenAI into work delivery, we must invest just as much in skills development, cultural buy-in, and leadership enablement as we do in the tech itself.
 

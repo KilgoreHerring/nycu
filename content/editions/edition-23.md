@@ -1,9 +1,9 @@
 23rd Edition - 1st - 14th Aug 2025
 
-- GPT-5 Coverage – smarter, faster, but not perfect (Various)
+- GPT-5 Coverage - smarter, faster, but not perfect ([Mollick](https://www.oneusefulthing.org/p/gpt-5-it-just-does-stuff) | [Harvey](https://www.harvey.ai/blog/building-a-legal-coworker-with-gpt-5) | [Legora](https://www.linkedin.com/posts/wearelegora_why-legora-is-ready-for-gpt-5-openai-today-activity-7359288000230346752-glHu) | [Gary Marcus](https://garymarcus.substack.com/p/gpt-5-overdue-overhyped-and-underwhelming))
 	- What: The launch of GPT-5 combines better reasoning, quicker output, and handles more complex tasks. Harvey and Legora (amongst others) have already integrated GPT-5 to improve their products. Harvey showed sharper drafting and improved performance on their BigLaw Bench evaluation suite. However, AI critic Gary Marcus described the model as overhyped and underwhelming.
 	- So what: As we continue testing models for AGPT, we can explore GPT-5's capabilities to see if it enhances AGPT's accuracy, speed and usefulness. Initial tests show that GPT-5 performs better on our DD benchmark.
-- McKinsey Technology Trends Outlook 2025
+- [McKinsey Technology Trends Outlook 2025 (PDF)](https://myag365.sharepoint.com/:b:/r/sites/InnovationLegalTech/Shared%20Documents/Research%20and%20Development/Reading/mckinsey-technology-trends-outlook-2025.pdf?csf=1&web=1&e=vJW2EQ)
 	- What: McKinsey identifies 13 frontier tech trends set to transform industries. Key themes include the rise of agentic AI, advances in application-specific semiconductors, the scaling of autonomous systems, and deeper human-machine collaboration.
 	- So what: The trends support our approach to experiment with multi-step AI workflows across different teams. Tools such as Copilot, or Microsoft apps like Power Automate are increasingly vital to our build and testing of agentic workflows.
 - [OpenAI x BBVA Collaboration](https://www.bbva.com/en/innovation/openai-highlights-its-collaboration-with-bbva-in-the-global-launch-of-gpt-5/)

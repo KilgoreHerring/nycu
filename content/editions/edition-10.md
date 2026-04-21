@@ -1,11 +1,11 @@
 10th Edition - 15th - 31st Jan 2025
 
-Deepseek Launch
+[Deepseek Launch](https://aipapersacademy.com/deepseek-r1/)
 
 - What: DeepSeek R1 is a newly released open-source LLM designed to deliver strong reasoning capabilities and cost-efficient performance, positioning itself as a competitor to the big players. Unlike others, DeepSeek claims to have superior mathematical reasoning and improved instruction-following abilities, making it particularly useful for professional and enterprise applications. Benchmarks indicate it performs competitively in reasoning and problem-solving tasks while being open source.
 - So what: The emergence of DeepSeek presents a potential alternative to proprietary AI models, allowing AG to explore cost-effective, customisable AI solutions while reducing dependency on closed-source systems. Given its claimed strengths in reasoning, it could be particularly useful in contract analysis, risk assessment and contract family reviews. Testing its effectiveness in real-world legal scenarios could inform whether open-source models can match or exceed proprietary solutions for AG's use cases. The challenge will be getting a safe environment set up to execute on this.
 
-TR ALSP Report
+[TR ALSP Report 2025](https://www.thomsonreuters.com/en-us/posts/wp-content/uploads/sites/20/2025/01/ALSP-Report-2025.pdf)
 
 - What: This report provides a deep dive into the ALSP market's rapid expansion. The ALSP sector now stands at $28.5 billion, growing at an 18% compound annual growth rate (CAGR). Notably, over 50% of corporate law departments now rely on ALSPs for services like eDiscovery, litigation support, and legal operations consulting. However, the market is splitting - while some law firms embrace ALSPs as partners, others remain resistant. A key disruptor is GenAI, which 35% of law firms and 40% of corporate legal departments see as making ALSPs more attractive. GenAI allows ALSPs to offer faster, cost-efficient services, potentially eroding law firms' competitive advantage unless they adopt similar technologies. The long-term impact remains uncertain, as firms may build in-house AI expertise to offset reliance on ALSPs.
 - So what: The findings highlight the growing necessity for legal innovation. As ALSPs integrate GenAI to optimise workflows, traditional firms that fail to evolve risk losing ground. For AG, this underscores the urgency of leveraging AI-driven efficiencies in legal services while maintaining high-quality, strategic advisory roles that ALSPs cannot easily replicate. It also backs up our recent move into the ALSP market with our MLS offering. Monitoring how clients adopt ALSPs could inform AG's strategy in offering AI-augmented solutions that align with shifting client expectations.
@@ -17,19 +17,19 @@ Launch of AI Assistants
 
 Worth Reading:
 
-- [2025 Skills Conference](https://skills.law/2025)
-- [Write up on the latest updates from the NY Times claim against OpenAI](https://jillianbommarito.com/nyt-microsoft-motion-to-dismiss/)
-- [Harvey growth and investment](https://www.theinformation.com/articles/why-sequoia-is-doubling-down-on-harvey)
-- [Learning course to dive into reasoning with LLMs](https://www.deeplearning.ai/short-courses/reasoning-with-o1/)
-- [Macfarlanes offering legal service subscription using Harvey](https://www.thelawyer.com/macfarlanes-offers-harvey-based-solutions-to-clients/)
-- [New AI based legal service offering](https://www.artificiallawyer.com/2025/01/22/avantia-law-launches-ava-ai-platform/)
-- [Claude Citations](https://www.anthropic.com/news/introducing-citations-api)
-- [ChatGPT Operator / Agents](https://openai.com/index/introducing-operator/)
-- [ChatGPT Government edition](https://openai.com/global-affairs/introducing-chatgpt-gov/)
-- [Perplexity Assistant](https://www.perplexity.ai/help-center/en/articles/10450852-basic-information-about-the-perplexity-assistant)
-- [Deepseek launch](https://aipapersacademy.com/deepseek-r1/)
-- [3 Geeks Deepseek write up](https://www.geeklawblog.com/2025/01/deepseek-r1-is-this-the-open-source-legal-tech-breakthrough-weve-been-waiting-for.html)
-- [AL Write up of TR ALSP Report](https://www.artificiallawyer.com/2025/01/28/with-genai-are-alsps-set-for-a-golden-age-or-their-demise/)
-- TR ALSP Report 2025 (PDF)
-- [Qwen 2.5](https://www.albawaba.com/business/alibaba-launches-new-ai-model-competing-1598910)
-- FT Article about the billable hour
+- **[2025 Skills Conference:](https://skills.law/2025)** Virtual one-day conference on AI adoption in legal practice, with speakers from Paul Weiss, DLA Piper, Weil, Reed Smith and Cleary. Sessions cover the human side of adoption, knowledge management, and benchmarking tools and pilots.
+- **[Jillian Bommarito - NYT v Microsoft/OpenAI Motion to Dismiss:](https://jillianbommarito.com/nyt-microsoft-motion-to-dismiss/)** Walkthrough of the oral argument on the defendants' motion to dismiss. Judge engaged substantively with training-data and DMCA claims, so Bommarito's read is that the case proceeds toward trial.
+- **[The Information - Why Sequoia Is Doubling Down on Harvey:](https://www.theinformation.com/articles/why-sequoia-is-doubling-down-on-harvey)** Paywalled analysis of Sequoia's latest bet on Harvey. Useful for anyone tracking legal AI funding momentum and what the Tier 1 VCs are willing to underwrite.
+- **[DeepLearning.AI - Reasoning with o1:](https://www.deeplearning.ai/short-courses/reasoning-with-o1/)** Short course from OpenAI's Colin Jarvis on using o1 effectively - when to reach for it, prompting principles, and using o1 as an orchestrator for cheaper models. Around 90 minutes with six code examples.
+- **[The Lawyer - Macfarlanes Offers Harvey-Based Solutions to Clients:](https://www.thelawyer.com/macfarlanes-offers-harvey-based-solutions-to-clients/)** Macfarlanes packaging Harvey-powered services for clients. One of the first concrete UK examples of a firm productising a legal AI platform into a client-facing offering.
+- **[Artificial Lawyer - Avantia Law Launches Ava AI Platform:](https://www.artificiallawyer.com/2025/01/22/avantia-law-launches-ava-ai-platform/)** Avantia combines a regulated legal business with its own AI platform to deliver fixed-fee work without the traditional associate-paralegal pyramid. Interesting data point for the alternative delivery model conversation.
+- **[Anthropic - Introducing Citations for Claude:](https://www.anthropic.com/news/introducing-citations-api)** New API feature that grounds Claude responses in specific passages of source documents, returning structured citations. Directly relevant for legal research, contract review, and any workflow where you need verifiable provenance.
+- **[OpenAI - Introducing Operator:](https://openai.com/index/introducing-operator/)** OpenAI's first general-purpose agent that browses, clicks and types inside a real browser to complete tasks for the user. Early version with notable limitations but signals where consumer-grade agents are heading.
+- **[OpenAI - Introducing ChatGPT Gov:](https://openai.com/global-affairs/introducing-chatgpt-gov/)** A version of ChatGPT tailored for US government agencies, designed to meet public-sector security and compliance requirements. Worth tracking as a template for how the large labs court regulated buyers.
+- **[Perplexity Assistant:](https://www.perplexity.ai/help-center/en/articles/10450852-basic-information-about-the-perplexity-assistant)** Perplexity's answer to Operator and its own push into agent territory. Combines search, reasoning and actions (calls, messages, reservations) with cited sources, launching on Android first.
+- **[AI Papers Academy - DeepSeek R1 Explainer:](https://aipapersacademy.com/deepseek-r1/)** Technical walkthrough of how DeepSeek R1 was trained - reinforcement learning over supervised fine-tuning - and why it matters. The model reaches o1-level reasoning while remaining open source.
+- **[3 Geeks - Is DeepSeek R1 the Open Source Legal Tech Breakthrough?:](https://www.geeklawblog.com/2025/01/deepseek-r1-is-this-the-open-source-legal-tech-breakthrough-weve-been-waiting-for.html)** Argues R1 is a genuine option for on-prem legal deployment because firms can host it themselves and keep data in-house. Also flags the accuracy, bias and Chinese-origin risks that buyers need to think through.
+- **[Artificial Lawyer - With GenAI, Are ALSPs Set for a Golden Age or Their Demise?:](https://www.artificiallawyer.com/2025/01/28/with-genai-are-alsps-set-for-a-golden-age-or-their-demise/)** Richard Tromans on the TR ALSP report. Two paths for ALSPs: ride GenAI to undercut in-house teams, or watch corporates build their own AI capability and pull work back in.
+- **TR ALSP Report 2025 (PDF):** [Internal AG resource] Thomson Reuters' full 2025 ALSP market report. $28.5bn market, 18% CAGR, over 50% of corporate legal departments now using ALSPs, with GenAI the key disruptor on both sides.
+- **[Al Bawaba - Alibaba Launches Qwen 2.5:](https://www.albawaba.com/business/alibaba-launches-new-ai-model-competing-1598910)** Alibaba pushes Qwen 2.5 out in sizes from 3B to 72B parameters. Marketing positions it against GPT-4o, DeepSeek-V3 and Llama-3.1-405B and confirms Chinese labs are not slowing down.
+- **FT Article about the billable hour:** [Internal AG resource] FT piece examining whether the billable hour survives the shift to AI-assisted legal work. Useful framing for any pricing or alternative fee conversations with clients.

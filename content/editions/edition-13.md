@@ -1,16 +1,16 @@
 13th Edition - 1st - 14th March 2025
 
-- Agents of Change MS Report
+- [Agents of Change MS Report](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/final/en-us/mcaps/dau/documents/fy25/AgentsofChange.pdf)
 	- What: The MS Report underscores the transformative impact of AI agents on business productivity, collaboration, and innovation. AI agents are projected to drive efficiency gains across various industries, with 64% of executives reporting that AI will significantly enhance productivity in their organisations. Furthermore, 70% of business leaders expect AI agents to redefine how tasks are completed by streamlining complex processes and improving decision-making capabilities. The report emphasises that successful AI integration will depend on thoughtful design, ethical considerations, and ensuring compatibility with existing workflows.
 	- So what: The widespread adoption of AI agents presents valuable opportunities for us to enhance both our internal tools (like AGPT) and client-facing solutions. The reported emphasis on seamless integration and productivity gains aligns with our current efforts to improve interoperability through tools like Power Automate and Copilot Studio. Additionally, these insights can be used to enhance client conversations by demonstrating how our tools can improve efficiency, reduce workloads, and provide tailored AI solutions that meet their specific needs. Highlighting our ability to align AI tools with clients' existing systems and workflows can be a compelling selling point in our discussions.
-- LawTech UK Report
+- [LawTech UK Report (PDF)](https://myag365.sharepoint.com/:b:/r/sites/InnovationLegalTech/Shared%20Documents/Research%20and%20Development/Reading/LawtechUK-Ecosystem-Tracker-Report.pdf?csf=1&web=1&e=cmQXQD)
 	- What: The Report provides a snapshot of the current state of legal technology adoption across the UK. It highlights key trends such as the growth of legal AI tools, the increasing focus on interoperability between systems, and the demand for user-friendly interfaces. It also outlines barriers to adoption, including cost, cultural resistance, and lack of technical expertise within legal teams.
 	- So what: This report underscores the need for us to:
 		- Focus on interoperability: As we continue to develop and test tools like AGPT, ensuring seamless integration with our existing systems is essential for successful adoption.
 		- Address cultural resistance: Overcoming reluctance to adopt new technologies requires actively demonstrating the benefits of AI tools through targeted training sessions and practical demonstrations.
 		- Enhance accessibility: Making AI tools more user-friendly and aligned with lawyer workflows will be critical to achieving widespread adoption within our firm.
 		- Align with industry trends: Staying updated with the latest legaltech developments will help us anticipate potential challenges and identify new opportunities for improving our AI tools.
-- AI Powered Lawyering Paper showing effectiveness of AI Models
+- [AI Powered Lawyering Paper showing effectiveness of AI Models (PDF)](https://myag365.sharepoint.com/:b:/r/sites/InnovationLegalTech/Shared%20Documents/Research%20and%20Development/Reading/AI-Powered%20Lawyering%20AI%20Reasoning%20Models,%20Retrieval%20Augmented%20Generation,%20and%20the%20Future%20of%20Legal%20Practice.pdf?csf=1&web=1&e=6q4Jn7)
 	- What: This study examines the performance of legal AI models in improving work quality and efficiency across different legal tasks. The findings show that some AI models significantly outperform others in areas such as contract analysis, document summarisation, and legal research. The study also highlights the importance of model training, customisation, and user feedback in achieving optimal performance.
 	- So what: The study provides valuable insights that can guide our ongoing build work:
 		- Benchmarking performance: Comparing AGPT's outputs against the most successful models can help us identify areas needing improvement, especially in contract review and summarisation.
@@ -19,25 +19,26 @@
 		- Ensuring efficiency and quality: Enhancing AGPT's ability to produce high-quality outputs quickly will be key to promoting its adoption within the firm.
 		- RAG Approach: The use of RAG significantly reduces hallucinations and the advancement of reasoning models means that this process can get to a high degree of accuracy.
 
-Worth reading:
-- Agents of Change: Microsoft's report delves into the evolving role of AI agents in various industries.
-- ContractPodAi and Epiq Partner to Transform Legal Services Through Advanced Agentic AI for Law
-- DeepJudge Unveils Legal AI Workflows
-- Introducing Harvey Agents
-- OpenAI Wants Businesses to Build Their Own AI Agents
-- Agents, Agents Everywhere: The State of Agentic AI in 2025
-- Norm AI Secures $48 Million to Transform Regulations into Compliance AI Agents
-- 92% of Students Are Using AI: What This Means for Lawyers
-- When AI Goes Off the Rails
-- LawtechUK Ecosystem Tracker Report
-- Another New Study of Legal AI Shows Some Models Can Significantly Improve Work Quality and Efficiency
-- AI-Powered Lawyering: AI Reasoning Models, Retrieval Augmented Generation, and the Future of Legal Practice
-- Stop AI-ing Everywhere
-- Mistral OCR Release
-- Sussing Out AI
-- Clio Acquires Sharedo
-- Project Europe
-- Wolters Kluwer Launches Legal Fee Benchmarking Tool
-- From Risk to Resilience: Inside Revolut's Legal Strategy
-- UK Government Digital Strategy: Mantra - "No person's substantive time should be spent on a task where digital or AI can do it better, quicker and to the same high quality and standard."
-- [Legal Tech Hub Market Map](https://www.legaltechnologyhub.com/contents/lth-genai-legal-tech-map-february-2025/)
+Worth Reading:
+
+- **Microsoft - Agents of Change:** Microsoft's report on the evolving role of AI agents across industries. Headline stats: 64% of execs expect significant productivity gains, 70% expect agents to redefine task completion.
+- **ContractPodAi and Epiq Partner on Agentic Legal AI:** Partnership bringing ContractPodAi's agentic Leah platform to Epiq's managed legal services. Another sign of vendor plus ALSP alliances becoming standard as agentic AI enters mainstream contract workflows.
+- **DeepJudge Unveils Legal AI Workflows:** DeepJudge adds configurable workflow capability on top of its knowledge intelligence platform. Aims to let firms build and deploy AI-powered processes without writing code.
+- **Introducing Harvey Agents:** Harvey's agents use tool use and multi-step reasoning to complete real legal tasks rather than just answering questions. Positioned as the move from copilot to autopilot within firm workflows.
+- **OpenAI Wants Businesses to Build Their Own AI Agents:** OpenAI releases its Responses API, Agents SDK and web-search/file-search tools so enterprises can build production agents on its stack. Direct competition for Anthropic's MCP push.
+- **Agents, Agents Everywhere: The State of Agentic AI in 2025:** Overview of where agentic AI actually sits in 2025 - lots of demos, fewer production deployments. Useful snapshot of the gap between vendor promises and live systems.
+- **Norm AI Secures $48M for Regulatory Compliance Agents:** Norm AI raised $48M Series B to turn regulations into executable compliance AI agents. Led by Coatue. One to watch in the regtech-meets-agents space.
+- **92% of Students Are Using AI - What This Means for Lawyers:** HEPI survey finds 92% of UK students now use GenAI. Commentary on the pipeline implications for law firms training the junior talent about to qualify.
+- **When AI Goes Off the Rails:** Round-up of AI failure modes in legal and regulated work - fabricated citations, misleading summaries, confidently wrong case law. Useful for briefing lawyers on what to check for.
+- **LawtechUK Ecosystem Tracker Report:** [Internal AG resource] Snapshot of UK legal tech adoption - growth in legal AI tools, demand for interoperability, and the barriers (cost, culture, skills). Good grounding document for UK market context.
+- **Another New Study of Legal AI - Some Models Significantly Improve Work Quality and Efficiency:** New empirical study showing meaningful quality and efficiency gains in contract analysis, summarisation and research when models and prompts are well chosen. Not all models deliver - selection matters.
+- **AI-Powered Lawyering: Reasoning Models, RAG, and the Future of Legal Practice:** [Internal AG resource] Academic paper examining how reasoning models combined with RAG reduce hallucination and improve legal task performance. Useful underpinning for our own RAG approach.
+- **Stop AI-ing Everywhere:** Contrarian piece arguing most "AI everywhere" deployments are noise, not value. Prescription: pick the handful of use cases with real ROI and stop sprinkling AI on every workflow.
+- **Mistral OCR Release:** Mistral ships a dedicated OCR endpoint aimed at document-heavy pipelines. Direct relevance for any firm doing large-scale document processing with European data-residency constraints.
+- **Sussing Out AI:** Practical guide to probing whether an AI tool actually does what the vendor claims - structured tests, failure-mode checking, comparison against lawyer baselines. Good buyer-side read.
+- **Clio Acquires Sharedo:** Clio acquires UK-based Sharedo, extending its reach into large-firm case and matter management. Signals Clio's push up-market from SMB into mid-market and enterprise.
+- **Project Europe:** New European initiative to back under-25 technical founders, backed by Niklas Zennstrom and others. Aimed at keeping more European talent building in Europe.
+- **Wolters Kluwer Launches Legal Fee Benchmarking Tool:** New WK tool giving in-house teams comparative data on external counsel rates and spend by practice area and matter type. Another sign of in-house teams tightening the vice on firm pricing.
+- **From Risk to Resilience - Inside Revolut's Legal Strategy:** Profile of Revolut's general counsel and how the team built a tech-led legal function. Good case study for any in-house lead thinking about operating model.
+- **UK Government Digital Strategy:** The strategy's mantra: "No person's substantive time should be spent on a task where digital or AI can do it better, quicker and to the same high quality and standard." Useful line to cite in AI adoption pitches.
+- **[Legal Tech Hub - GenAI Legal Tech Market Map (Feb 2025):](https://www.legaltechnologyhub.com/contents/lth-genai-legal-tech-map-february-2025/)** LTH's interactive map of 400+ GenAI-enabled legal tech solutions, organised by category. Best single view of how crowded and segmented the market has become.
