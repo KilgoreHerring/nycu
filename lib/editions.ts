@@ -516,7 +516,8 @@ function parseWorthReading(md: string): WorthReadingItem[] {
     // Pattern B: "[Title](url): description" or "[Title](url) - description"
     if (!m) m = rest.match(/^\[([^\]]+)\]\(([^)]+)\)[:\s-]+([\s\S]*)$/);
     if (m) {
-      const [, t, u, rawBody] = m;
+      const [, rawTitle, u, rawBody] = m;
+      const t = rawTitle.replace(/[:\s]+$/, "");
       let bodyMd = rawBody.trim();
       // Strip trailing lone colon artefact
       bodyMd = bodyMd.replace(/^:\s*/, "");
@@ -529,7 +530,8 @@ function parseWorthReading(md: string): WorthReadingItem[] {
     // Pattern C: "**Title**: description" (no hyperlink on title)
     m = rest.match(/^\*\*([^*]+)\*\*[:\s]*([\s\S]*)$/);
     if (m) {
-      const [, t, rawBody] = m;
+      const [, rawTitle, rawBody] = m;
+      const t = rawTitle.replace(/[:\s]+$/, "");
       const body = renderInline(rawBody.trim());
       const extraLinks = extractLinks(rawBody);
       items.push({ group, title: t, body, extraLinks });
@@ -687,22 +689,61 @@ function parseLegacyWorthReading(md: string): WorthReadingItem[] {
     const bm = line.match(/^-\s+(.+)$/);
     if (!bm) continue;
     const rest = bm[1];
+
+    // Pattern A: "**[Title](url):** description" / "**[Title](url)**: description"
+    // Also handles "**[Title:](url)** description" (colon inside the brackets).
+    let m = rest.match(/^\*\*\[([^\]]+)\]\(([^)]+)\)[:]?\*\*[:\s]*([\s\S]*)$/);
+    if (m) {
+      const [, rawTitle, u, rawBody] = m;
+      const title = rawTitle.replace(/[:\s]+$/, "");
+      const bodyMd = rawBody.trim().replace(/^:\s*/, "");
+      const body = renderInline(bodyMd);
+      const extraLinks = extractLinks(bodyMd).filter((l) => l.url !== u);
+      items.push({ title, url: u, body, extraLinks });
+      continue;
+    }
+
+    // Pattern B: "**Title:** description" (no hyperlink on title, e.g. internal resources)
+    m = rest.match(/^\*\*([^*]+)\*\*[:\s]*([\s\S]*)$/);
+    if (m) {
+      const [, rawTitle, rawBody] = m;
+      const title = rawTitle.replace(/[:\s]+$/, "");
+      const bodyMd = rawBody.trim();
+      const body = renderInline(bodyMd);
+      const extraLinks = extractLinks(bodyMd);
+      items.push({ title, body, extraLinks });
+      continue;
+    }
+
+    // Pattern C: "[Title](url): description" / "[Title](url) - description"
+    m = rest.match(/^\[([^\]]+)\]\(([^)]+)\)[:\s-]+([\s\S]*)$/);
+    if (m) {
+      const [, rawTitle, u, rawBody] = m;
+      const title = rawTitle.replace(/[:\s]+$/, "");
+      const bodyMd = rawBody.trim();
+      const body = renderInline(bodyMd);
+      const extraLinks = extractLinks(bodyMd).filter((l) => l.url !== u);
+      items.push({ title, url: u, body, extraLinks });
+      continue;
+    }
+
+    // Pattern D: "[Title](url)" link-only
     const links = extractLinks(rest);
     if (links.length > 0) {
       const main = links[0];
-      // Strip the first [label](url) from body
       const body = renderInline(
         rest.replace(/\[[^\]]+\]\([^)]+\)/, "").replace(/^[:\s-]+/, "").trim(),
       );
       items.push({
-        title: main.label,
+        title: main.label.replace(/[:\s]+$/, ""),
         url: main.url,
         body,
         extraLinks: links.slice(1),
       });
-    } else {
-      items.push({ title: rest, body: "" });
+      continue;
     }
+
+    items.push({ title: rest, body: "" });
   }
   return items;
 }
