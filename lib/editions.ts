@@ -121,19 +121,28 @@ function periodFromFilename(filename: string): string {
 // --------- parser ----------
 
 export function parseEdition(raw: string, slug: string): Edition {
-  const numberFromSlug = parseInt(slug.replace(/[^\d]/g, ""), 10);
+  // Non-numeric slugs (e.g. "edition-special") get a fractional number so
+  // they sort into the right chronological position between numbered editions.
+  const isSpecial = /special/i.test(slug);
+  const numberFromSlug = isSpecial
+    ? 8.5
+    : parseInt(slug.replace(/[^\d]/g, ""), 10);
   const lines = raw.split(/\r?\n/);
 
   // Title & period
-  let title = `Edition ${numberFromSlug}`;
+  let title = isSpecial ? "Special Edition" : `Edition ${numberFromSlug}`;
   let suffix: string | undefined;
   let period = "";
 
   const firstLine = lines[0]?.trim() || "";
   const h1Match = firstLine.match(/^#\s*Edition\s+(\d+)\s*(?:-\s*(.+))?$/i);
+  const specialMatch = firstLine.match(/^Special Edition\s*-\s*(.+)$/i);
   if (h1Match) {
     title = `Edition ${h1Match[1]}`;
     suffix = h1Match[2]?.trim();
+  } else if (specialMatch) {
+    title = "Special Edition";
+    period = specialMatch[1].trim();
   } else {
     // Legacy: "20th Edition - 15th - 30th June 2025"
     const legacyMatch = firstLine.match(/^(\d+\w+)\s+Edition\s*-\s*(.+)$/i);

@@ -14,7 +14,7 @@ export function EditionHero({ edition }: { edition: Edition }) {
     <section className="px-6 pt-10 pb-10 md:pt-16 md:pb-14">
       <div className="max-w-4xl mx-auto">
         <p className="eyebrow mb-3">
-          Edition {edition.number}
+          {edition.title}
           {edition.period ? ` \u00B7 ${edition.period}` : ""}
         </p>
         <h1 className="font-display text-4xl sm:text-5xl md:text-6xl leading-[1.02] tracking-tight text-[#142028]">
@@ -317,7 +317,7 @@ export function ArchiveLink({ edition }: { edition: Edition }) {
     <Link href={`/editions/${edition.slug}`} className="group block paper p-5 md:p-6 hover:-translate-y-0.5 transition-transform">
       <div className="flex items-baseline gap-3 flex-wrap">
         <span className="font-display text-2xl md:text-3xl text-[#142028]">
-          Edition {edition.number}
+          {edition.title}
         </span>
         <span className="eyebrow text-sm">{edition.period}</span>
       </div>

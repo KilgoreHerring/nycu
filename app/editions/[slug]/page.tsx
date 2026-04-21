@@ -14,8 +14,8 @@ export async function generateMetadata({ params }: PageProps) {
   const edition = getEdition(slug);
   if (!edition) return { title: "Not found" };
   return {
-    title: `Edition ${edition.number} \u00B7 News You Can Use`,
-    description: edition.hook || `Edition ${edition.number}: ${edition.period}`,
+    title: `${edition.title} \u00B7 News You Can Use`,
+    description: edition.hook || `${edition.title}: ${edition.period}`,
   };
 }
 
@@ -44,7 +44,7 @@ export default async function EditionPage({ params }: PageProps) {
             >
               <p className="eyebrow mb-1">&larr; Previous edition</p>
               <p className="font-display text-xl text-[#142028]">
-                Edition {older.number}
+                {older.title}
               </p>
               <p className="text-sm text-[#5b6f7d]">{older.period}</p>
             </Link>
@@ -58,7 +58,7 @@ export default async function EditionPage({ params }: PageProps) {
             >
               <p className="eyebrow mb-1">Next edition &rarr;</p>
               <p className="font-display text-xl text-[#142028]">
-                Edition {newer.number}
+                {newer.title}
               </p>
               <p className="text-sm text-[#5b6f7d]">{newer.period}</p>
             </Link>

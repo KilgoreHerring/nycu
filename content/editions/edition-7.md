@@ -1,0 +1,40 @@
+7th Edition - 1st - 13th Dec 2024
+
+Revolut Legal's AI Journey
+
+- What: Revolut's Legal team have been building a Commercial Contract AI Copilot with Google's Gemini model. It can score a contract across 30+ categories in 90 seconds. Based on 2024 volume, they should save 108,000 minutes (75 days) per year! Their initial accuracy testing shows only a 6.75% accuracy difference against their lawyers.
+- So what: An example of a potential client driving their in-house team forward using AI, the ability to run what they consider a "good enough" review in 90 seconds will mean they will self-serve a huge amount more than they currently do. The more clients that do this the more pressure there will be on external counsel, however it also shows an appetite for this type of initial review, which could be a route for our MLS team to deliver this work to clients without the legal team Revolut have.
+
+When to use AI (and when not to)
+
+- What: An overview from Ethan Mollick on 15 things to use AI for, and 5 time not to use AI. The main takeaways being to use AI where appropriate, so for quantity, to check things, summarisation, as a copilot etc. He warns against using AI for actually learning and synthesising new ideas, where accuracy is of the utmost importance, when you do not understand where AI may fail, where the struggle is the point or where AI just isn't good enough.
+- So what: This echoes how we have been approaching the use of GenAI for legal use cases. Trying to encourage use for the things it will do well, but maintaining caution for the complex work that lawyers still need to do. There are learnings from this article about how we can communicate this approach to lawyers, as people have high expectations of AI but realistically do not want it to be doing the high complexity work, with it being much more readily adopted if it focused on the work lawyers shouldn't be doing. The point around "better than the best available human" is a crucial one, if we can deliver 1000x the throughput but at 90% of the quality, this will still be better than not doing this job at all.
+
+Microsoft Agentic Strategy
+
+- What: 100,000 organisations are using Copilot Studio to build agents. This is focused on automating tasks and workflows that previously could not be automated due to the requirement of "cognitive function". Seeing people sharing content alongside agents so that people can query and deep dive into content using the agent that has been customised for that purpose. Real focus on integrations and full service platform for people building in Microsoft.
+- So what: Microsoft building out the capabilities they offer will enable us to build more complex solutions in Copilot Studio, whilst also potentially using pre-built solutions for some productivity tasks. This is also a toolset that is available to our clients, so we need to get ahead of this and either be there to help train and implement Copilot or potentially sell pre-built AG Agents for legal workflows. Content and Knowledge will be crucial in delivering this properly.
+
+Clausebase's Generative AI in Legal Fall 2024 Update
+
+- What: The report explores how Generative AI is increasingly being tailored for legal applications, emphasising tools that support the creation of nuanced, accurate documents. Key advancements include the ability to: automate drafting using legal precedents; enhance drafting consistency by analysing patterns across vast document libraries; generate multilingual contracts efficiently for cross-jurisdictional use. However, challenges remain, particularly in aligning AI outputs with a law firm's specific drafting style or with client expectations. The update also highlights how legal professionals need to actively train and guide AI tools to maximise their value.
+- So what: These insights are directly applicable to AG's ongoing development of AGPT. For example, automating the application of legal precedents could save significant time in drafting, and multilingual contract generation aligns with our international practice. At the same time, the report underscores the importance of training AI to reflect firm and client-specific standards, a reminder to prioritise customisation and quality control as we refine AGPT's capabilities. Furthermore, by addressing the challenges of AI-human collaboration early on, we can ensure that our tools are not only efficient but also trusted by lawyers and clients alike.
+
+Worth Reading:
+
+- [Why law firms can't help but bill by the hour](https://www.slaw.ca/2024/12/04/why-law-firms-cant-help-but-bill-by-the-hour/)
+- [Jordan Furlong - Three better metrics for law firm value](https://jordanfurlong.substack.com/p/three-better-metrics-for-law-firm)
+- [Where's Your Ed At - Godot Isn't Making It](https://www.wheresyoured.at/godot-isnt-making-it/)
+- [ClauseBase - Legal Generative AI Fall 2024 Update](https://www.clausebase.com/post/legal-generative-ai-fall-2024-update)
+- [Webinar: Generative AI in Legal - Fall 2024 Update](https://www.youtube.com/watch?v=rLTwvMeXKlY)
+- [Artificial Lawyer - A Law Firm Is A Legal Wrapper With Human Agents](https://www.artificiallawyer.com/2024/12/03/a-law-firm-is-a-legal-wrapper-with-human-agents/)
+- [BGR - o1 tried to 'scheme'](https://bgr.com/tech/chatgpt-o1-tried-to-save-itself-when-the-ai-thought-it-was-in-danger-and-lied-to-humans-about-it/)
+- [YC 2025 Request for Startups](https://www.ycombinator.com/rfs)
+- [a16z Big Ideas in Tech 2025](https://a16z.com/big-ideas-in-tech-2025/)
+- [Ethan Mollick - 15 Times to Use AI and 5 Not To](https://www.oneusefulthing.org/p/15-times-to-use-ai-and-5-not-to)
+- [TLTF Summit Wrap Up and Agenda (PDF)](https://myag365.sharepoint.com/:b:/r/sites/InnovationLegalTech/Shared%20Documents/Research%20and%20Development/Reading/TLTFSummit2024Lookbook_12-10-24.pdf?csf=1&web=1&e=bu0rhq)
+- [MS AI Agent ecosystem dominance](https://venturebeat.com/ai/microsoft-quietly-assembles-the-largest-ai-agent-ecosystem-and-no-one-else-is-close/)
+- [Who and what comprises AI skepticism](https://buildcognitiveresonance.substack.com/p/who-and-what-comprises-ai-skepticism)
+- [Notorious AI and the dawn of the 10x founder](https://www.notoriousplg.ai/p/notorious-ai-and-the-dawn-of-the)
+- [Index Ventures - Scaling through chaos in the age of AI](https://www.indexventures.com/perspectives/scaling-through-chaos-in-the-age-of-ai/)
+- [Leonard Park - LLMs and contract intelligence: how many GPT-4 level models](https://www.linkedin.com/pulse/llms-contract-intelligence-how-many-gpt4-level-models-leonard-park-bhhcc/)
