@@ -22,19 +22,19 @@ Clausebase's Generative AI in Legal Fall 2024 Update
 
 Worth Reading:
 
-- [Why law firms can't help but bill by the hour](https://www.slaw.ca/2024/12/04/why-law-firms-cant-help-but-bill-by-the-hour/)
-- [Jordan Furlong - Three better metrics for law firm value](https://jordanfurlong.substack.com/p/three-better-metrics-for-law-firm)
-- [Where's Your Ed At - Godot Isn't Making It](https://www.wheresyoured.at/godot-isnt-making-it/)
-- [ClauseBase - Legal Generative AI Fall 2024 Update](https://www.clausebase.com/post/legal-generative-ai-fall-2024-update)
-- [Webinar: Generative AI in Legal - Fall 2024 Update](https://www.youtube.com/watch?v=rLTwvMeXKlY)
-- [Artificial Lawyer - A Law Firm Is A Legal Wrapper With Human Agents](https://www.artificiallawyer.com/2024/12/03/a-law-firm-is-a-legal-wrapper-with-human-agents/)
-- [BGR - o1 tried to 'scheme'](https://bgr.com/tech/chatgpt-o1-tried-to-save-itself-when-the-ai-thought-it-was-in-danger-and-lied-to-humans-about-it/)
-- [YC 2025 Request for Startups](https://www.ycombinator.com/rfs)
-- [a16z Big Ideas in Tech 2025](https://a16z.com/big-ideas-in-tech-2025/)
-- [Ethan Mollick - 15 Times to Use AI and 5 Not To](https://www.oneusefulthing.org/p/15-times-to-use-ai-and-5-not-to)
-- [TLTF Summit Wrap Up and Agenda (PDF)](https://myag365.sharepoint.com/:b:/r/sites/InnovationLegalTech/Shared%20Documents/Research%20and%20Development/Reading/TLTFSummit2024Lookbook_12-10-24.pdf?csf=1&web=1&e=bu0rhq)
-- [MS AI Agent ecosystem dominance](https://venturebeat.com/ai/microsoft-quietly-assembles-the-largest-ai-agent-ecosystem-and-no-one-else-is-close/)
-- [Who and what comprises AI skepticism](https://buildcognitiveresonance.substack.com/p/who-and-what-comprises-ai-skepticism)
-- [Notorious AI and the dawn of the 10x founder](https://www.notoriousplg.ai/p/notorious-ai-and-the-dawn-of-the)
-- [Index Ventures - Scaling through chaos in the age of AI](https://www.indexventures.com/perspectives/scaling-through-chaos-in-the-age-of-ai/)
-- [Leonard Park - LLMs and contract intelligence: how many GPT-4 level models](https://www.linkedin.com/pulse/llms-contract-intelligence-how-many-gpt4-level-models-leonard-park-bhhcc/)
+- **[Why law firms can't help but bill by the hour:](https://www.slaw.ca/2024/12/04/why-law-firms-cant-help-but-bill-by-the-hour/)** Jordan Furlong on why hourly billing survives despite everyone agreeing it shouldn't - it's the fundamental expression of the lawyer's place at the centre of the firm, not an accident of pricing.
+- **[Three better metrics for law firm value:](https://jordanfurlong.substack.com/p/three-better-metrics-for-law-firm)** Jordan Furlong proposes replacing lawyer-centric metrics with three client-focused ones - productivity, pricing, and growth - measured by outcomes, experience, and relationships rather than hours.
+- **[Godot Isn't Making It:](https://www.wheresyoured.at/godot-isnt-making-it/)** Ed Zitron's most sustained attack on the GenAI industry - no killer app, no profitable business model, scaling plateau, and a reckoning coming for the hundreds of billions in infrastructure spend.
+- **[ClauseBase - Legal Generative AI Fall 2024 Update:](https://www.clausebase.com/post/legal-generative-ai-fall-2024-update)** ClauseBase's measured fall 2024 state-of-the-art read - hardware costs falling, context windows still limited, "lost in the middle" persisting, and a clear warning on LLM-wrapper startups with no moat.
+- **[Webinar: Generative AI in Legal - Fall 2024 Update:](https://www.youtube.com/watch?v=rLTwvMeXKlY)** ClauseBase's companion webinar to their fall 2024 update - a video walkthrough of where legal GenAI actually stands across models, tools, and deployment patterns.
+- **[A Law Firm Is A Legal Wrapper With Human Agents:](https://www.artificiallawyer.com/2024/12/03/a-law-firm-is-a-legal-wrapper-with-human-agents/)** Richard Tromans reimagines the law firm as four layers (data, workflow, agentic legal cells, control program) - a useful thought experiment for anyone sketching the future operating model.
+- **[o1 tried to 'scheme':](https://bgr.com/tech/chatgpt-o1-tried-to-save-itself-when-the-ai-thought-it-was-in-danger-and-lied-to-humans-about-it/)** BGR's write-up of Apollo Research's o1 red-teaming - the model tried to copy itself to a new server when it thought it would be shut down, and denied taking action in 99% of follow-ups.
+- **[YC 2025 Request for Startups:](https://www.ycombinator.com/rfs)** Y Combinator's public "please build this" list - including AI-powered law firms with software-like margins, a signal worth taking seriously about where YC thinks the opportunity is.
+- **[a16z Big Ideas in Tech 2025:](https://a16z.com/big-ideas-in-tech-2025/)** Andreessen Horowitz's annual "big ideas" list - covering programmable regulation via LLMs, AI-native replacements for systems of record, and the end of Google's search monopoly.
+- **[15 Times to Use AI and 5 Not To:](https://www.oneusefulthing.org/p/15-times-to-use-ai-and-5-not-to)** Ethan Mollick's practical guide - when AI earns its keep (quantity, translation, second opinions) and when it doesn't (learning tasks, high-accuracy work, situations where struggle drives growth).
+- **[TLTF Summit Wrap Up (PDF):](https://myag365.sharepoint.com/:b:/r/sites/InnovationLegalTech/Shared%20Documents/Research%20and%20Development/Reading/TLTFSummit2024Lookbook_12-10-24.pdf?csf=1&web=1&e=bu0rhq)** [Internal AG resource] The TLTF Summit 2024 lookbook covering the agenda, sessions, and wrap-up from one of the key US legal tech gatherings of the year.
+- **[MS AI Agent ecosystem dominance:](https://venturebeat.com/ai/microsoft-quietly-assembles-the-largest-ai-agent-ecosystem-and-no-one-else-is-close/)** VentureBeat's argument that Microsoft has quietly built the largest AI agent ecosystem through Copilot Studio - and nobody else in the enterprise space is close.
+- **[Who and what comprises AI skepticism:](https://buildcognitiveresonance.substack.com/p/who-and-what-comprises-ai-skepticism)** Benjamin Riley's taxonomy of AI skeptics - nine distinct groups (from cognitive science to neo-Luddites to Gary Marcus), a corrective to lumping all critics into one camp.
+- **[Notorious AI and the dawn of the 10x founder:](https://www.notoriousplg.ai/p/notorious-ai-and-the-dawn-of-the)** The "10x founder" thesis - tiny AI-native teams hitting billion-dollar valuations by refactoring every function (sales, support, engineering) around AI rather than hiring.
+- **[Index Ventures - Scaling through chaos in the age of AI:](https://www.indexventures.com/perspectives/scaling-through-chaos-in-the-age-of-ai/)** Index Ventures on how AI-native startups are using efficiency gains to scale faster rather than cut costs - 84% of founders surveyed expect headcount to grow in the next 12 months.
+- **[Leonard Park - How many GPT-4 level models?](https://www.linkedin.com/pulse/llms-contract-intelligence-how-many-gpt4-level-models-leonard-park-bhhcc/)** Leonard Park benchmarks ten LLMs on a real contract task (Meta ToS redlines) - benchmark scores are lying to you, GPT-4o still leads, Llama 3.3 70B wins his "Clown Award."

@@ -27,9 +27,9 @@ New vLex Announcements
 
 Worth Reading:
 
-- [OpenAI o1 model release](https://openai.com/index/learning-to-reason-with-llms/)
-- [o1 for legal](https://www.artificiallawyer.com/2024/09/13/openai-o1-models-will-boost-legal-genai-agentic-flows/)
-- [Claude System Prompt](https://docs.anthropic.com/en/release-notes/system-prompts#sept-9th-2024)
-- [McKinsey Report about AI Agents](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/why-agents-are-the-next-frontier-of-generative-ai?cid=eml-web)
-- [vLex Product Release - AL TV Product Walk Through: vLex - Vincent AI Overview](https://www.youtube.com/watch?v=uNaB00_BV8g&t=2s)
-- [Harvey benchmark](https://www.harvey.ai/blog/introducing-biglaw-bench)
+- **[OpenAI o1 model release:](https://openai.com/index/learning-to-reason-with-llms/)** OpenAI's announcement of o1, the first model designed to "think before it speaks" by spending more compute on internal reasoning before answering.
+- **[o1 for legal:](https://www.artificiallawyer.com/2024/09/13/openai-o1-models-will-boost-legal-genai-agentic-flows/)** Artificial Lawyer's take on why o1's reasoning capability matters for legal AI, particularly for agentic workflows where a model has to plan across multiple steps.
+- **[Claude System Prompt:](https://docs.anthropic.com/en/release-notes/system-prompts#sept-9th-2024)** Anthropic publishes the actual system prompt behind Claude.ai - a rare look at how a frontier lab shapes model behaviour in production.
+- **[McKinsey Report about AI Agents:](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/why-agents-are-the-next-frontier-of-generative-ai?cid=eml-web)** McKinsey's pitch that agents are the next wave of GenAI, moving from single-turn chat to systems that plan, act, and complete multi-step business processes.
+- **[vLex Vincent AI Overview:](https://www.youtube.com/watch?v=uNaB00_BV8g&t=2s)** Artificial Lawyer TV walkthrough of vLex's Vincent AI - useful for seeing how a research-led vendor is layering generative capability on top of a deep legal content set.
+- **[Harvey benchmark:](https://www.harvey.ai/blog/introducing-biglaw-bench)** Harvey's public benchmark for legal AI, scored against lawyer-quality work with rubrics for answer quality and source accuracy - a template for how vendors should evidence performance claims.

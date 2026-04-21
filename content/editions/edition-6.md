@@ -27,19 +27,19 @@ Acquisition Announcement - Litera acquires Office & Dragons
 
 Worth Reading:
 
-- [AI agent tech stack](https://www.letta.com/blog/ai-agents-stack)
-- [AI Agents and MS Copilot - Jared Spataro](https://www.linkedin.com/pulse/ai-agents-what-you-need-know-now-jared-spataro-nbobc/)
-- [2024 Tech Trends - Benedict Evans](https://www.ben-evans.com/presentations)
-- [TR testing new mini-model with OpenAI for specific legal tasks](https://venturebeat.com/ai/thomson-reuters-cocounsel-redefines-legal-ai-with-openais-o1-mini-model/)
-- [Structure of the way LLMs think](https://www.geeky-gadgets.com/chatgpt-brain-like-structures/)
-- [Harvey breakdown from Legal Tech Hub](https://www.legaltechnologyhub.com/contents/dear-legal-tech-we-need-to-be-better/)
-- [Clifford Chance case study on MS Copilot](https://customers.microsoft.com/en-us/story/1837667199713758792-clifford-chance-mcrosoft-365-copilot-professional-services-en-united-kingdom)
-- [Future AGI Scenario planning - IMF](https://www.imf.org/en/Publications/fandd/issues/2023/12/Scenario-Planning-for-an-AGI-future-Anton-korinek)
-- [AI development slowing down?](https://time.com/7178328/is-ai-progress-slowing-down/)
-- [Orbital Witness case study on MS Copilot](https://customers.microsoft.com/en-gb/story/1827391161519296074-orbitalwitness-azure-professional-services-en-united-kingdom)
-- [Copilot Pages announcement](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/announcing-copilot-pages-for-multiplayer-collaboration/4242701)
-- [Jeff Langlands (BT Group GC) AI journey - Part 2](https://www.linkedin.com/pulse/lessons-from-legal-teams-ai-journey-part-two-jeff-langlands-gqsie/)
-- [Amazon increase investment in Anthropic](https://www.aboutamazon.com/news/aws/amazon-invests-additional-4-billion-anthropic-ai)
-- [Harvey updated Vault for largescale document review](https://www.harvey.ai/blog/introducing-the-next-version-of-vault)
-- [HSBC's Turning Point series](https://sponsored.bloomberg.com/article/hsbc/turning-point)
-- [Legal Tech Trends Newsletter](https://legaltechtrends.substack.com/p/legal-tech-trends-newsletter-35)
+- **[AI agent tech stack:](https://www.letta.com/blog/ai-agents-stack)** Letta's reference map of the AI agent stack - model serving, storage, frameworks, tools, and hosting - a useful mental model if you're trying to orient yourself in the agent ecosystem.
+- **[AI Agents and MS Copilot - Jared Spataro:](https://www.linkedin.com/pulse/ai-agents-what-you-need-know-now-jared-spataro-nbobc/)** Microsoft's Jared Spataro frames Copilot as the interface and agents as the apps - with Dow and Thomson Reuters case examples and a peek at the "constellation of agents" vision.
+- **[2024 Tech Trends - Benedict Evans:](https://www.ben-evans.com/presentations)** Benedict Evans's annual "AI eats the world" deck - his macro read on where tech is heading, always worth a read for the long-range strategic framing.
+- **[TR CoCounsel + OpenAI o1-mini:](https://venturebeat.com/ai/thomson-reuters-cocounsel-redefines-legal-ai-with-openais-o1-mini-model/)** Thomson Reuters pairing OpenAI's o1-mini with CoCounsel on specific legal reasoning tasks - an early signal of how reasoning models are being slotted into production legal workflows.
+- **[Structure of the way LLMs think:](https://www.geeky-gadgets.com/chatgpt-brain-like-structures/)** A pop-science write-up of research claiming LLMs develop brain-like geometric structures internally - interesting framing, though light on peer-reviewed sourcing.
+- **[Dear Legal Tech, we need to be better:](https://www.legaltechnologyhub.com/contents/dear-legal-tech-we-need-to-be-better/)** Nicola Shaver calls out tall-poppy syndrome in legal tech - the industry's habit of tearing down successful companies (read: Harvey) rather than celebrating progress.
+- **[Clifford Chance case study on MS Copilot:](https://customers.microsoft.com/en-us/story/1837667199713758792-clifford-chance-mcrosoft-365-copilot-professional-services-en-united-kingdom)** Microsoft's official Clifford Chance case study - global Copilot deployment across all levels, with Copilot Studio autonomous compliance agents on the roadmap.
+- **[Future AGI Scenario planning - IMF:](https://www.imf.org/en/Publications/fandd/issues/2023/12/Scenario-Planning-for-an-AGI-future-Anton-korinek)** Anton Korinek in the IMF's F&D magazine on scenario planning for an AGI future - the economic implications policymakers should be stress-testing now, not after the fact.
+- **[Is AI progress slowing down?](https://time.com/7178328/is-ai-progress-slowing-down/)** Time's survey of the "is scaling dead?" debate, pulling together the voices on both sides of the current frontier-model plateau argument.
+- **[Orbital Witness case study on MS Copilot:](https://customers.microsoft.com/en-gb/story/1827391161519296074-orbitalwitness-azure-professional-services-en-united-kingdom)** Microsoft's Orbital Witness case study - how they pivoted from traditional ML to LLMs and built Orbital Copilot, now claiming 70% time savings on property diligence.
+- **[Copilot Pages announcement:](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/announcing-copilot-pages-for-multiplayer-collaboration/4242701)** Microsoft's launch of Copilot Pages - a persistent, shareable canvas for multiplayer AI collaboration, essentially Microsoft's answer to OpenAI Canvas and Claude Artifacts.
+- **[Jeff Langlands (BT Group GC) - Part 2:](https://www.linkedin.com/pulse/lessons-from-legal-teams-ai-journey-part-two-jeff-langlands-gqsie/)** Part two of Jeff Langlands's BT Legal reflections - collaboration with law firms, leveraging corporate partnerships, incremental vendor updates, and why GenAI is not a big-bang change.
+- **[Amazon increases investment in Anthropic:](https://www.aboutamazon.com/news/aws/amazon-invests-additional-4-billion-anthropic-ai)** Amazon doubles down on Anthropic with a second $4 billion investment, making AWS Anthropic's primary training partner and locking in Trainium/Inferentia chips for future model training.
+- **[Harvey Vault update:](https://www.harvey.ai/blog/introducing-the-next-version-of-vault)** Harvey's Vault update - 10,000 files per project (up from 1,000), one-click extraction workflows with 96-99% recall, customisable review tables, and Assistant integration.
+- **[HSBC's Turning Point series:](https://sponsored.bloomberg.com/article/hsbc/turning-point)** HSBC's sponsored Bloomberg series on global innovation networks - six episodes covering space, quantum, robotics, shipping, smart cities, and AI-reshaped architecture.
+- **[Legal Tech Trends Newsletter #35:](https://legaltechtrends.substack.com/p/legal-tech-trends-newsletter-35)** Peter Duffy's scan - legal departments get only 3% of enterprise GenAI budgets, Ironclad's Jurist launches, Trellis moves into litigation, and Litera buys Office & Dragons.

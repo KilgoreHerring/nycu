@@ -27,18 +27,18 @@ DLA Piper and Copilot
 
 Worth Reading:
 
-- [OpenAI Search](https://openai.com/index/introducing-chatgpt-search/)
-- [Harvard Prompting Template](https://hbsp.harvard.edu/inspiring-minds/an-ai-prompting-template-for-teaching-tasks)
-- [Anthropic Prompt Improver](https://www.anthropic.com/news/prompt-improver)
-- [Harvard Study - GenAI and the Nature of Work (PDF)](https://myag365.sharepoint.com/:b:/r/sites/InnovationLegalTech/Shared%20Documents/Research%20and%20Development/Reading/GenAI%20and%20the%20Nature%20of%20Work%20-%20HBS.pdf?csf=1&web=1&e=JkXzI4)
-- [Scaling LLMs - Gary Marcus](https://garymarcus.substack.com/p/confirmed-llms-have-indeed-reached)
-- [So AI won't scale, what next?](https://brainsteam.co.uk/2024/11/12/so-ai-wont-scale-what-next/)
-- [DLA Copilot](https://customers.microsoft.com/en-us/story/1832762432689198259-dlapiper-microsoft-365-copilot-professional-services-en-united-states)
-- [Mark Cohen - The Enigma of Big Law Innovation](https://www.forbes.com/sites/markcohen1/2024/11/01/the-enigma-of-big-law-innovation/)
-- [Viral Tech - a case study into ChatGPT](https://every.to/learning-curve/the-psychology-of-viral-technologies)
-- [Engineer Legal Newsletter](https://www.engineer.legal/news)
-- [Lexis AI Review from a Law Professor](https://www.nationalmagazine.ca/en-ca/articles/law/opinion/2024/law-professor-gives-lexis-ai-a-failing-grade)
-- [Macfarlanes on using AI in DD](https://www.macfarlanes.com/what-we-think/102eli5/enhancing-due-diligence-with-generative-ai-qa-with-commercial-and-lawtech-102jmny)
-- [Market discussion on the rise of Harvey](https://www.legallydisrupted.com/p/so-much-hate-for-harvey-and-i-cant)
-- [Ironclad Release Jurist (AI on top of CLM)](https://ironcladapp.com/blog/ai-legal-assistant-jurist/)
-- [New Harvey Benchmark - retrieval focus](https://www.harvey.ai/blog/biglaw-bench-retrieval)
+- **[OpenAI Search:](https://openai.com/index/introducing-chatgpt-search/)** OpenAI's launch of ChatGPT Search, bringing real-time web results with citations into the chat interface and putting Google directly in its sights.
+- **[Harvard Prompting Template:](https://hbsp.harvard.edu/inspiring-minds/an-ai-prompting-template-for-teaching-tasks)** Ethan Mollick and Lilach Mollick's structured prompting template for teaching tasks - five-part framework (role, goal, step-by-step, personalisation, constraints) that transfers beyond education.
+- **[Anthropic Prompt Improver:](https://www.anthropic.com/news/prompt-improver)** Anthropic's built-in Prompt Improver in the Console - adds chain-of-thought, standardises examples, and claims a 30% accuracy uplift on a multilabel classification task in their testing.
+- **[Harvard Study - GenAI and the Nature of Work (PDF):](https://myag365.sharepoint.com/:b:/r/sites/InnovationLegalTech/Shared%20Documents/Research%20and%20Development/Reading/GenAI%20and%20the%20Nature%20of%20Work%20-%20HBS.pdf?csf=1&web=1&e=JkXzI4)** [Internal AG resource] Harvard Business School study on how GenAI changes the nature of knowledge work - task composition, skill premiums, and where productivity lands.
+- **[Scaling LLMs - Gary Marcus:](https://garymarcus.substack.com/p/confirmed-llms-have-indeed-reached)** Gary Marcus argues scaling has hit diminishing returns, pointing to Andreessen's GPU comments and The Information's reporting on GPT slowdown - the bear case in concentrated form.
+- **[So AI won't scale, what next?](https://brainsteam.co.uk/2024/11/12/so-ai-wont-scale-what-next/)** James Ravenscroft's thoughtful response to the scaling-wall debate - a pragmatist's view on what practitioners should do if raw scale stops delivering and we need smarter architectures.
+- **[DLA Piper Copilot case study:](https://customers.microsoft.com/en-us/story/1832762432689198259-dlapiper-microsoft-365-copilot-professional-services-en-united-states)** Microsoft's DLA Piper Copilot case study - "coalition of the willing" rollout, up to 36 hours a week saved on content generation, with a heavy emphasis on data governance and Purview.
+- **[The Enigma of Big Law Innovation:](https://www.forbes.com/sites/markcohen1/2024/11/01/the-enigma-of-big-law-innovation/)** Mark Cohen on why Big Law struggles to innovate despite its resources - partnership incentives, hourly billing, and short-termism keep firms locked into legacy models.
+- **[The psychology of viral technologies:](https://every.to/learning-curve/the-psychology-of-viral-technologies)** Every's case study on why ChatGPT went viral when the underlying GPT tech had existed for years - interface and psychological accessibility beat raw capability.
+- **[Engineer Legal Newsletter:](https://www.engineer.legal/news)** Engineer Legal's newsletter covering their HighQ plugin updates - relevant if you run HighQ and want to push it beyond out-of-the-box capability with task dashboards and reporting.
+- **[Law Professor Gives Lexis AI a Failing Grade:](https://www.nationalmagazine.ca/en-ca/articles/law/opinion/2024/law-professor-gives-lexis-ai-a-failing-grade)** Professor Benjamin Perrin's scathing review of Lexis+ AI - fabricated citations, copy-pasted headnotes passed off as summaries, and criminal-vs-tort law confusion, with a recommendation not to roll it out to students.
+- **[Macfarlanes on using GenAI in DD:](https://www.macfarlanes.com/what-we-think/102eli5/enhancing-due-diligence-with-generative-ai-qa-with-commercial-and-lawtech-102jmny)** Macfarlanes on using GenAI for DD - summary tables across hundreds of documents in an hour versus days, with a clear insistence that expert oversight is non-negotiable.
+- **[So Much Hate for Harvey:](https://www.legallydisrupted.com/p/so-much-hate-for-harvey-and-i-cant)** A thoughtful essay on why Harvey generates so much schadenfreude despite comparable valuations to Casetext - brand positioning, founder optics, and the legal tech tall-poppy instinct.
+- **[Ironclad launches Jurist:](https://ironcladapp.com/blog/ai-legal-assistant-jurist/)** Ironclad's launch of Jurist, a conversational AI legal assistant built on their open-source Rivet platform, operating inside Word with transparent multi-agent reasoning and source citations.
+- **[New Harvey Benchmark - retrieval focus:](https://www.harvey.ai/blog/biglaw-bench-retrieval)** Harvey's retrieval-focused benchmark claims their system finds up to 30% more relevant content than standard embedding-based retrieval, using metadata, feature engineering, and LLM-based relevancy judgements.

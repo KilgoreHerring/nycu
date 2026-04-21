@@ -27,8 +27,8 @@ FT Innovative Lawyers
 
 Worth Reading:
 
-- [New Zuva (ex-Kira) Product](https://www.artificiallawyer.com/2024/09/17/product-walk-through-zuvas-new-contract-review-ai-analyze/)
-- [Legal Tech Trends Newsletter](https://legaltechtrends.substack.com/p/legal-tech-trends-newsletter-32)
-- [Update on wider AI landscape](https://www.oneusefulthing.org/p/scaling-the-state-of-play-in-ai)
-- [SPA specific Harvey benchmark](https://www.harvey.ai/blog/biglaw-bench-workflows-spa-deal-points)
-- [Lexis Survey](https://www.lexisnexis.co.uk/research-and-reports/generative-ai-survey-h2-2024.html)
+- **[New Zuva (ex-Kira) Product:](https://www.artificiallawyer.com/2024/09/17/product-walk-through-zuvas-new-contract-review-ai-analyze/)** Noah Waisberg's second act after Kira - Zuva Analyze combines GenAI and ML for contract review, with flexible project-based pricing aimed at in-house teams.
+- **[Legal Tech Trends Newsletter #32:](https://legaltechtrends.substack.com/p/legal-tech-trends-newsletter-32)** Peter Duffy's fortnightly scan - covers the Lexis survey, Spellbook Associate, Workday buying Evisort, and the expectations gap between Fortune 1000 GCs and law firm leaders.
+- **[Scaling the state of play in AI:](https://www.oneusefulthing.org/p/scaling-the-state-of-play-in-ai)** Ethan Mollick's state-of-play on scaling - explains the two scaling laws (training compute and inference compute) and why Gen3 models are about to arrive at billion-dollar training costs.
+- **[SPA specific Harvey benchmark:](https://www.harvey.ai/blog/biglaw-bench-workflows-spa-deal-points)** Harvey's task-specific benchmark on extracting SPA deal points - foundation models hit 66-72% accuracy, Harvey's specialised agent reaches 98.47%, making the case for purpose-built systems.
+- **[Lexis Survey:](https://www.lexisnexis.co.uk/research-and-reports/generative-ai-survey-h2-2024.html)** Lexis H2 2024 UK lawyer survey - 82% have adopted or are planning to adopt GenAI (nearly quadrupled since 2023), 41% are active users, 71% cite speed as the biggest benefit.

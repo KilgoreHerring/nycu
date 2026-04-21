@@ -22,13 +22,13 @@ Apple Research into LLMs
 
 Worth Reading:
 
-- [Our RAG Report](https://myag365.sharepoint.com/sites/Lawplusmore/SitePages/The%20RAG%20Report.aspx)
-- [Legal Tech Trends Newsletter](https://legaltechtrends.substack.com/p/legal-tech-trends-newsletter-33)
-- [Fuller look at the OpenAI Dev Day](https://openai.com/devday/)
-- [OpenAI Share Prompt Details](https://platform.openai.com/docs/guides/prompt-generation)
-- [Detail on OpenAI Canvas](https://openai.com/index/introducing-canvas/)
-- [The Survey from ACC and Everlaw (PDF)](https://myag365.sharepoint.com/:b:/r/sites/InnovationLegalTech/Shared%20Documents/Research%20and%20Development/Reading/ACC-Survey-ReportGenAI-Future%20Corporate-Work.pdf?csf=1&web=1&e=fICISn)
-- [A write up from Jeff Langlands at BT about their journey](https://www.linkedin.com/pulse/lessons-from-legal-teams-ai-journey-part-one-jeff-langlands-njlee/)
-- [Link to Access NotebookLM](https://notebooklm.google.com/)
-- [NotebookLM Podcast we created based on Emotive Prompting](https://myag365.sharepoint.com/:u:/r/sites/InnovationLegalTech/Shared%20Documents/Research%20and%20Development/Generative%20AI/Emotive%20Prompting.wav?csf=1&web=1&e=TKqrX6)
-- [Apple Report details](https://arstechnica.com/ai/2024/10/llms-cant-perform-genuine-logical-reasoning-apple-researchers-suggest/)
+- **[Our RAG Report:](https://myag365.sharepoint.com/sites/Lawplusmore/SitePages/The%20RAG%20Report.aspx)** [Internal AG resource] Addleshaw Goddard's RAG Report - findings on retrieval-augmented generation, prompt engineering effort, and why most firms should partner with vendors rather than build in-house.
+- **[Legal Tech Trends Newsletter #33:](https://legaltechtrends.substack.com/p/legal-tech-trends-newsletter-33)** Peter Duffy's scan - adoption data from Lexis, Stephenson Harwood's time savings, Linklaters' GenAI training, and a round of startup funding including Qura and Fynk.
+- **[Fuller look at the OpenAI Dev Day:](https://openai.com/devday/)** OpenAI Dev Day 2024 hub - Realtime API for voice agents, prompt caching, vision fine-tuning, and Model Distillation, aimed squarely at developers building on the platform.
+- **[OpenAI Prompt Generator:](https://platform.openai.com/docs/guides/prompt-generation)** OpenAI's built-in Prompt Generator - you describe the task, it produces a structured prompt for you, useful if you want to see how OpenAI itself recommends prompts be written.
+- **[Detail on OpenAI Canvas:](https://openai.com/index/introducing-canvas/)** OpenAI Canvas - a side-by-side editing workspace for writing and coding with ChatGPT, letting you highlight specific passages to revise rather than regenerate whole outputs.
+- **[ACC and Everlaw Survey (PDF):](https://myag365.sharepoint.com/:b:/r/sites/InnovationLegalTech/Shared%20Documents/Research%20and%20Development/Reading/ACC-Survey-ReportGenAI-Future%20Corporate-Work.pdf?csf=1&web=1&e=fICISn)** [Internal AG resource] ACC and Everlaw survey on GenAI and the future of corporate legal work - adoption rates, budget expectations, and use case priorities from in-house teams.
+- **[Jeff Langlands at BT on their AI journey:](https://www.linkedin.com/pulse/lessons-from-legal-teams-ai-journey-part-one-jeff-langlands-njlee/)** Jeff Langlands at BT sets out a four-pillar framework for legal GenAI: productivity (Copilot), self-service, knowledge management, and risk - grounded in real usage data.
+- **[NotebookLM:](https://notebooklm.google.com/)** Google's NotebookLM - upload your own documents and NotebookLM grounds its answers in them, including the viral audio-overview podcast feature.
+- **[Emotive Prompting Podcast:](https://myag365.sharepoint.com/:u:/r/sites/InnovationLegalTech/Shared%20Documents/Research%20and%20Development/Generative%20AI/Emotive%20Prompting.wav?csf=1&web=1&e=TKqrX6)** [Internal AG resource] A NotebookLM-generated audio overview based on our Emotive Prompting research - a working example of the podcast output format.
+- **[Apple Report details:](https://arstechnica.com/ai/2024/10/llms-cant-perform-genuine-logical-reasoning-apple-researchers-suggest/)** Ars Technica's write-up of Apple's GSM-Symbolic paper arguing that LLMs are pattern-matching rather than reasoning - performance collapses when you change the variables in maths problems.
