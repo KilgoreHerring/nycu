@@ -20,11 +20,6 @@ export function EditionHero({ edition }: { edition: Edition }) {
         <h1 className="font-display text-4xl sm:text-5xl md:text-6xl leading-[1.02] tracking-tight text-[#142028]">
           News You Can <span className="font-display-italic text-[#3a7d78]">Use</span>
         </h1>
-        {edition.hook ? (
-          <p className="mt-6 text-lg md:text-xl leading-relaxed text-[#1f2a33] max-w-3xl">
-            {edition.hook}
-          </p>
-        ) : null}
       </div>
     </section>
   );
