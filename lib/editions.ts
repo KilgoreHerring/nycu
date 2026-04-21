@@ -98,18 +98,31 @@ function parsePeriodToIso(period: string): { dateStart: string; dateEnd: string 
     nov: 10, november: 10,
     dec: 11, december: 11,
   };
-  const m = period.match(/(\d+)\w*\s*[-–]\s*(\d+)\w*\s+(\w+)\s+(\d{4})/);
-  if (!m) return { dateStart: "", dateEnd: "" };
-  const [, d1, d2, monStr, yr] = m;
-  const mon = months[monStr.toLowerCase()];
-  if (mon === undefined) return { dateStart: "", dateEnd: "" };
-  const y = parseInt(yr, 10);
-  const start = new Date(Date.UTC(y, mon, parseInt(d1, 10)));
-  const end = new Date(Date.UTC(y, mon, parseInt(d2, 10)));
-  return {
-    dateStart: start.toISOString().slice(0, 10),
-    dateEnd: end.toISOString().slice(0, 10),
-  };
+  const rangeMatch = period.match(/(\d+)\w*\s*[-–]\s*(\d+)\w*\s+(\w+)\s+(\d{4})/);
+  if (rangeMatch) {
+    const [, d1, d2, monStr, yr] = rangeMatch;
+    const mon = months[monStr.toLowerCase()];
+    if (mon === undefined) return { dateStart: "", dateEnd: "" };
+    const y = parseInt(yr, 10);
+    const start = new Date(Date.UTC(y, mon, parseInt(d1, 10)));
+    const end = new Date(Date.UTC(y, mon, parseInt(d2, 10)));
+    return {
+      dateStart: start.toISOString().slice(0, 10),
+      dateEnd: end.toISOString().slice(0, 10),
+    };
+  }
+  // Single-date fallback: "1st January 2025"
+  const singleMatch = period.match(/(\d+)\w*\s+(\w+)\s+(\d{4})/);
+  if (singleMatch) {
+    const [, d, monStr, yr] = singleMatch;
+    const mon = months[monStr.toLowerCase()];
+    if (mon === undefined) return { dateStart: "", dateEnd: "" };
+    const y = parseInt(yr, 10);
+    const date = new Date(Date.UTC(y, mon, parseInt(d, 10)));
+    const iso = date.toISOString().slice(0, 10);
+    return { dateStart: iso, dateEnd: iso };
+  }
+  return { dateStart: "", dateEnd: "" };
 }
 
 function periodFromFilename(filename: string): string {

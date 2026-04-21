@@ -1,4 +1,4 @@
-Special Edition - New Year New News You Can Use - 2025 Predictions Wrap Up
+Special Edition - 1st January 2025
 
 Looking at predictions from across the market we have pulled together the key themes that people are expecting 2025 to have in store. Read the more detailed pieces in this edition's Worth Reading section to dive into the detail.
 
