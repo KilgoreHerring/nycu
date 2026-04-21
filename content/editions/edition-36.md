@@ -4,7 +4,7 @@
 
 ## Opening
 
-This was the fortnight the market started pricing in consequences. Anthropic systematically entered established markets and watched stocks collapse on announcement day - cybersecurity, mainframe services, enterprise software. A speculative Substack post modelling AI-driven economic collapse wiped billions off real share prices in real time. And Ethan Mollick - the most influential voice in practical AI thinking - rewrote his foundational guide from scratch because the paradigm shifted underneath it. The question is no longer whether AI works. It's what happens when it does.
+This was the fortnight the market started pricing in consequences. Anthropic systematically entered established markets and watched stocks collapse on announcement day - cybersecurity, mainframe services, enterprise software. A speculative Substack post modelling AI-driven economic collapse wiped billions off real share prices in real time. Some real questions about "what happens if AI really works..."
 
 ## Deep Dives
 

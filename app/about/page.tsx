@@ -23,7 +23,10 @@ export default function AboutPage() {
               hype cycles, no press releases masquerading as analysis.
             </p>
             <p>
-              Written by Mike Kennedy.
+              Brought to you by <a href="https://www.linkedin.com/in/mikeyakennedy/" target="_blank" rel="noopener noreferrer" className="underline hover:text-[#8a4a30] transition-colors">Mike Kennedy</a>.
+            </p>
+            <p>
+              For the latest stats across legal tech, check out <a href="https://legaltechstats.vercel.app" target="_blank" rel="noopener noreferrer" className="underline hover:text-[#8a4a30] transition-colors">The Signal</a>.
             </p>
           </div>
         </div>

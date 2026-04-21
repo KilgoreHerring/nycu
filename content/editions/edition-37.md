@@ -6,8 +6,6 @@
 
 Five major model releases in a single fortnight - GPT-5.4, Gemini 3.1 Pro, Claude Sonnet 4.6, Grok 4.20, MiniMax M2.5 - all with million-token context and agentic capabilities. Every major lab now offers models that can see your screen, use your tools, and execute multi-step tasks autonomously. The competitive moat has shifted from model quality to ecosystem and trust. The models are converging. The question is what you do with them.
 
-Two answers emerged this fortnight. One is structural: an AI legal platform acquired a UK law firm outright for the first time. A technology-only firm got SRA approval. An AI employment firm negotiated a £30k settlement. The disruption that has been discussed in theory for years started happening in practice. The other answer is personal: a new category of legal professional is emerging - lawyers who combine legal judgment with genuine technical fluency to become disproportionately valuable. Not prompt engineers. Not innovation team members. Practising lawyers who build systems, automate workflows, and treat AI as an extension of their practice rather than a fancier search engine. The gap between those lawyers and everyone else is widening fast.
-
 ## Deep Dives
 
 ### GPT-5.4 and the Model Wave
