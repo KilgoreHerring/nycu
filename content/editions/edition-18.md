@@ -1,6 +1,6 @@
 18th Edition - 15th - 30th May 2025
 
-- Bain Survey - https://www.bain.com/insights/survey-generative-ai-uptake-is-unprecedented-despite-roadblocks/
+- [Bain Survey - Generative AI Uptake Is Unprecedented Despite Roadblocks](https://www.bain.com/insights/survey-generative-ai-uptake-is-unprecedented-despite-roadblocks/)
 	- What: Bain & Company's May 2025 global survey of 1,200 business leaders reveals that 70% of executives have either implemented or piloted genAI, more than double from the year before. Adoption is being led by technology, banking, and business services sectors, with law firms showing increased experimentation. However, half of respondents say they are not yet seeing material business value, citing challenges like integration, hallucinations, unclear use cases, and talent gaps.
 	- So what: Clients are moving fast. We are seeing this with some of our clients, but others are much further behind. We need to continue to speak to clients about where genAI adds value for in-house teams, as well as what we are doing at AG. It also opens doors for client conversations around responsible adoption, especially when we can demonstrate our own use cases (e.g., AGPT) backed by a firm-wide usage policy that we have worked with OGC to shape and stress-test.
 - AI Agents vs Agentic AI (PDF)
