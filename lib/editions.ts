@@ -582,44 +582,54 @@ function parseLegacyDeepDives(md: string): DeepDive[] {
     return [{ title: "", intro: html }];
   }
 
+  // Pre-compute each dive's title position so we can cap the preceding
+  // dive's So-what content before it (otherwise the next title gets
+  // captured as continuation text).
+  const titleIdxForDive: number[] = whatPositions.map((whatIdx, s) => {
+    const prevStoryEnd = s > 0 ? whatPositions[s - 1] : -1;
+    for (let k = whatIdx - 1; k > prevStoryEnd; k--) {
+      const line = lines[k];
+      if (!line.trim()) continue;
+      if (isWhat(line) || isSoWhat(line)) continue;
+      return k;
+    }
+    return -1;
+  });
+
   const deepDives: DeepDive[] = [];
 
   for (let s = 0; s < whatPositions.length; s++) {
     const whatIdx = whatPositions[s];
-    // Title search: walk backwards from whatIdx-1, skip blanks, collect the first non-blank line
-    // that isn't a What/So-what bullet and isn't the previous story's So-what bullet content.
-    const prevStoryEnd = s > 0 ? whatPositions[s - 1] : -1;
-    let titleIdx = -1;
-    for (let k = whatIdx - 1; k > prevStoryEnd; k--) {
-      const line = lines[k];
-      if (!line.trim()) continue;
-      // Skip nested bullet continuation lines (indented text, not a bullet itself)
-      if (isWhat(line) || isSoWhat(line)) continue;
-      titleIdx = k;
-      break;
-    }
+    const titleIdx = titleIdxForDive[s];
 
     let title = "";
     if (titleIdx >= 0) {
       title = cleanLegacyTitle(lines[titleIdx]);
     }
 
-    // Extract What content: from whatIdx up to the next So-what or next What
-    const nextBoundary =
+    // Cap content at the next dive's title (if any) rather than its
+    // What bullet, so titles between dives are not absorbed.
+    const hardBoundary =
       s + 1 < whatPositions.length ? whatPositions[s + 1] : lines.length;
+    const nextTitleIdx = titleIdxForDive[s + 1];
+    const contentEnd =
+      typeof nextTitleIdx === "number" && nextTitleIdx > whatIdx
+        ? nextTitleIdx
+        : hardBoundary;
+
     let soWhatIdx = -1;
-    for (let k = whatIdx + 1; k < nextBoundary; k++) {
+    for (let k = whatIdx + 1; k < contentEnd; k++) {
       if (isSoWhat(lines[k])) {
         soWhatIdx = k;
         break;
       }
     }
 
-    const whatEnd = soWhatIdx >= 0 ? soWhatIdx : nextBoundary;
+    const whatEnd = soWhatIdx >= 0 ? soWhatIdx : contentEnd;
     const whatContent = extractBulletContent(lines.slice(whatIdx, whatEnd));
     let soWhatContent = "";
     if (soWhatIdx >= 0) {
-      soWhatContent = extractBulletContent(lines.slice(soWhatIdx, nextBoundary));
+      soWhatContent = extractBulletContent(lines.slice(soWhatIdx, contentEnd));
     }
 
     // If the title line contains a bare link that looks like a source, expose as subtitleLinks too
