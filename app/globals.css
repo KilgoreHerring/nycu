@@ -1,0 +1,272 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: "Inter", "Inter Fallback", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Fraunces", "Fraunces Fallback", ui-serif, Georgia, serif;
+
+  /* Watercolour palette - soft teals, cyans, sages, warm ink */
+  --color-background: #f6f4ef;
+  --color-foreground: #1f2a33;
+  --color-ink: #1f2a33;
+  --color-muted: #5b6f7d;
+  --color-border: #dde6e6;
+
+  /* Watercolour hues - directly referenced */
+  --color-teal: #7fb9b4;
+  --color-teal-deep: #3a7d78;
+  --color-teal-wash: rgba(127, 185, 180, 0.16);
+
+  --color-sage: #9db999;
+  --color-sage-deep: #4e7851;
+  --color-sage-wash: rgba(157, 185, 153, 0.18);
+
+  --color-sky: #a9c8d5;
+  --color-sky-deep: #3f6a7e;
+  --color-sky-wash: rgba(169, 200, 213, 0.22);
+
+  --color-ochre: #c8a25a;
+  --color-ochre-deep: #8a6a2a;
+  --color-ochre-wash: rgba(200, 162, 90, 0.18);
+
+  --color-terracotta: #c98767;
+  --color-terracotta-deep: #8a4a30;
+  --color-terracotta-wash: rgba(201, 135, 103, 0.18);
+
+  --color-slate: #435b76;
+  --color-slate-deep: #002441;
+
+  --color-paper: #ffffff;
+  --color-cream: #f6f4ef;
+
+  /* Hashtag pill palettes (matching email aesthetic) */
+  --color-tag-technology: #68a0c4;
+  --color-tag-technology-bg: rgba(104, 160, 196, 0.18);
+  --color-tag-legal: #c98767;
+  --color-tag-legal-bg: rgba(201, 135, 103, 0.18);
+  --color-tag-market: #b88bb8;
+  --color-tag-market-bg: rgba(184, 139, 184, 0.18);
+  --color-tag-client: #7ea884;
+  --color-tag-client-bg: rgba(126, 168, 132, 0.18);
+  --color-tag-commentary: #c9a66b;
+  --color-tag-commentary-bg: rgba(201, 166, 107, 0.20);
+  --color-tag-research: #6a9b97;
+  --color-tag-research-bg: rgba(106, 155, 151, 0.20);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+  font-feature-settings: "ss01", "cv11";
+  min-height: 100vh;
+}
+
+/* Ambient watercolour wash. Soft, painterly — larger and slower than Sophie's,
+   weighted towards the teal/green end. No floral accents. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: -10%;
+  pointer-events: none;
+  z-index: 0;
+  background-image:
+    radial-gradient(ellipse 1100px 700px at 12% 6%, rgba(127, 185, 180, 0.28), transparent 62%),
+    radial-gradient(ellipse 900px 600px at 92% 14%, rgba(169, 200, 213, 0.28), transparent 60%),
+    radial-gradient(ellipse 1200px 800px at 68% 92%, rgba(157, 185, 153, 0.28), transparent 62%),
+    radial-gradient(ellipse 700px 500px at 20% 85%, rgba(200, 162, 90, 0.16), transparent 60%),
+    radial-gradient(ellipse 600px 500px at 50% 45%, rgba(104, 160, 196, 0.12), transparent 60%);
+  filter: blur(8px) saturate(1.05);
+}
+
+/* Paper grain - subtle noise layer to feel like handmade paper */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.35;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.12  0 0 0 0 0.16  0 0 0 0 0.19  0 0 0 0.035 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+}
+
+main,
+header,
+footer,
+nav {
+  position: relative;
+  z-index: 1;
+}
+
+::selection {
+  background: rgba(127, 185, 180, 0.45);
+  color: var(--color-foreground);
+}
+
+/* Typography helpers */
+.font-display {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  letter-spacing: -0.015em;
+  font-variation-settings: "opsz" 48, "SOFT" 50;
+}
+
+.font-display-italic {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 400;
+  font-variation-settings: "opsz" 48, "SOFT" 80;
+}
+
+/* Eyebrow labels (small caps, serif italic) */
+.eyebrow {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 0.92rem;
+  color: var(--color-teal-deep);
+  letter-spacing: 0.02em;
+}
+
+/* Paper card - same primitive as Sophie, retuned for teal/cream */
+.paper {
+  position: relative;
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(4px);
+  border: 1px solid var(--color-border);
+  border-radius: 18px;
+  box-shadow:
+    0 1px 2px rgba(31, 42, 51, 0.04),
+    0 14px 40px rgba(31, 42, 51, 0.06);
+}
+
+.paper-soft {
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid var(--color-border);
+  border-radius: 14px;
+}
+
+/* Deep-dive card - paper with a large watercolour wash bleeding from one corner */
+.dive-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.dive-card::before {
+  content: "";
+  position: absolute;
+  top: -30%;
+  right: -20%;
+  width: 70%;
+  height: 90%;
+  background: radial-gradient(ellipse at 30% 40%, var(--wash-color, rgba(127, 185, 180, 0.28)), transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+  filter: blur(6px);
+}
+
+.dive-card > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Hashtag pills */
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.22rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  font-family: var(--font-sans);
+  white-space: nowrap;
+}
+
+.tag-technology { color: #2d6b8f; background: var(--color-tag-technology-bg); }
+.tag-legal { color: #8a4a30; background: var(--color-tag-legal-bg); }
+.tag-market { color: #7a4f82; background: var(--color-tag-market-bg); }
+.tag-client { color: #3f6a49; background: var(--color-tag-client-bg); }
+.tag-commentary { color: #8a6a2a; background: var(--color-tag-commentary-bg); }
+.tag-research { color: #3e6e6b; background: var(--color-tag-research-bg); }
+
+/* Watercolour rule - a painterly divider */
+.brush-rule {
+  height: 24px;
+  background-image:
+    radial-gradient(ellipse 200px 8px at 20% 50%, rgba(127, 185, 180, 0.5), transparent 70%),
+    radial-gradient(ellipse 280px 6px at 55% 50%, rgba(169, 200, 213, 0.55), transparent 70%),
+    radial-gradient(ellipse 220px 7px at 85% 50%, rgba(157, 185, 153, 0.5), transparent 70%);
+}
+
+/* Rendered markdown content (opening prose, worth-reading bodies, legacy editions) */
+.prose-ink {
+  color: var(--color-ink);
+  line-height: 1.65;
+}
+.prose-ink p { margin: 0.9em 0; }
+.prose-ink p:first-child { margin-top: 0; }
+.prose-ink p:last-child { margin-bottom: 0; }
+.prose-ink a {
+  color: var(--color-teal-deep);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  text-decoration-color: rgba(58, 125, 120, 0.35);
+  transition: text-decoration-color 180ms ease, color 180ms ease;
+}
+.prose-ink a:hover {
+  color: var(--color-terracotta-deep);
+  text-decoration-color: var(--color-terracotta);
+}
+.prose-ink strong { font-weight: 600; color: #142028; }
+.prose-ink em { font-style: italic; }
+.prose-ink ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+  margin: 0.8em 0;
+}
+.prose-ink li { margin: 0.4em 0; line-height: 1.55; }
+.prose-ink h3 {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  margin: 1.6em 0 0.4em;
+  color: #142028;
+  letter-spacing: -0.01em;
+}
+.prose-ink h2 {
+  font-family: var(--font-serif);
+  font-size: 1.9rem;
+  margin: 1.8em 0 0.6em;
+  color: #142028;
+}
+.prose-ink blockquote {
+  font-family: var(--font-serif);
+  font-style: italic;
+  color: var(--color-teal-deep);
+  border-left: 3px solid var(--color-teal);
+  padding-left: 1rem;
+  margin: 1.2em 0;
+}
+
+/* Small brush underline for links in card titles */
+.brush-link {
+  background-image: linear-gradient(transparent 78%, rgba(127, 185, 180, 0.5) 78%);
+  transition: background-size 180ms ease;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.brush-link:hover {
+  background-image: linear-gradient(transparent 70%, rgba(201, 135, 103, 0.5) 70%);
+}
+
+/* Print-friendly */
+@media print {
+  body::before, body::after { display: none; }
+  .no-print { display: none !important; }
+  .paper { box-shadow: none; border-color: #ccc; }
+}
