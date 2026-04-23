@@ -214,7 +214,7 @@ export function WorthReadingSection({
             <div key={gi}>
               {g.group ? (
                 <h3 className="font-display text-xl md:text-2xl text-[#142028] mb-4 tracking-tight">
-                  <span className="font-display-italic text-[#8a4a30]">&mdash;</span> {g.group}
+                  <span className="font-display-italic text-[#8a4a30]">-</span> {g.group}
                 </h3>
               ) : null}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5">
@@ -337,13 +337,6 @@ export function EditionBody({ edition }: { edition: Edition }) {
       <OpeningSection opening={edition.opening} />
       <DeepDivesSection deepDives={edition.deepDives} variant={variant} />
       <WorthReadingSection items={edition.worthReading} />
-      {edition.notInEdition?.length ? (
-        <WorthReadingSection
-          items={edition.notInEdition}
-          title="Didn't Make the Cut"
-          blurb="Strong links held back to keep the edition focused, still worth a bookmark."
-        />
-      ) : null}
     </>
   );
 }

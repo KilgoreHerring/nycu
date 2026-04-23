@@ -78,7 +78,7 @@ function SiteFooter() {
         <div className="brush-rule mb-8" aria-hidden />
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 text-sm text-[#5b6f7d]">
           <p className="font-display-italic text-lg text-[#3a7d78]">
-            News You Can Use &mdash; a fortnightly field note from the legal AI frontier.
+            News You Can Use - a fortnightly field note from the legal AI frontier.
           </p>
           <p>Edited by Mike Kennedy.</p>
         </div>

@@ -19,7 +19,7 @@ export default function ArchivePage() {
             Every edition, <span className="font-display-italic text-[#3a7d78]">from the beginning</span>
           </h1>
           <p className="mt-5 text-lg text-[#1f2a33] leading-relaxed max-w-3xl">
-            A fortnightly field note on legal AI &mdash; the market, the research, the practitioners.
+            A fortnightly field note on legal AI - the market, the research, the practitioners.
             {" "}{editions.length} editions and counting.
           </p>
         </div>

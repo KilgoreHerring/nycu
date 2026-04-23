@@ -19,14 +19,15 @@ export default function AboutPage() {
             </p>
             <p>
               Each edition opens with two or three stories worth sitting with, then rounds
-              off with a curated list of everything else worth a click. No vendor copy, no
-              hype cycles, no press releases masquerading as analysis.
+              off with a curated list of everything else worth a click. The aim is a
+              high-level view of the legal tech market so you can scan what's moving and
+              pick out the pieces that fit your own interests.
             </p>
             <p>
               Brought to you by <a href="https://www.linkedin.com/in/michaelkenn/" target="_blank" rel="noopener noreferrer" className="underline hover:text-[#8a4a30] transition-colors">Mike Kennedy</a>.
             </p>
             <p>
-              For the latest stats across legal tech, check out <a href="https://legaltechstats.vercel.app" target="_blank" rel="noopener noreferrer" className="underline hover:text-[#8a4a30] transition-colors">The Signal</a>.
+              For the latest stats across legal tech, check out <a href="https://legaltech-stats.vercel.app" target="_blank" rel="noopener noreferrer" className="underline hover:text-[#8a4a30] transition-colors">The Signal</a>.
             </p>
           </div>
         </div>
