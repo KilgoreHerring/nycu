@@ -90,6 +90,7 @@ The running theme over the past fortnight has been the model and platform layers
 
 ### Technical Developments
 
+- **[OpenAI Releases GPT-5.5:](https://openai.com/index/introducing-gpt-5-5/)** Launched 23 April for Plus, Pro, Business and Enterprise plans, with API access from 24 April. Stronger at agentic coding, computer use, knowledge work, and early scientific research. GPT-5.5 Thinking and GPT-5.5 Pro variants ship alongside. Less than two months after GPT-5.4. Pair with Shumer's review under Critical Perspectives for the "frontier-filling rather than capability leaps" read.
 - **[Mistral Medium 3.5:](https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5)** 128B dense, 256k context, open weights, runs on 4 GPUs, 77.6% SWE-Bench Verified. Self-hostable frontier-adjacent model. Relevant context for the "private AI / sovereign AI" cluster.
 - **[Charlotin Hallucination Database Past 1,348 Cases:](https://www.damiencharlotin.com/hallucinations/)** Annualised rate now well past 2025's volume. The authoritative quantitative source for hallucination enforcement trends.
 
