@@ -4,7 +4,7 @@
 
 ## Opening
 
-The running theme over the past fortnight has been the model and platform layers competing with the application layer they power. Anthropic ships Cowork, Claude for Word, and a deal with Freshfields. Microsoft routes Claude through Copilot and, on the last day of the window, ships its own Word Legal Agent inside Copilot Frontier. Legal tech vendors are building MCPs and connectors into Claude. Capability comes from the model layer, but sourcing, control, surface area, and distribution are the main questions for legal tech vendors.
+The running theme over the past fortnight has been the model and platform layers competing with the application layer they power. Anthropic ships Cowork, Claude for Word, and a deal with Freshfields. Microsoft routes Claude through Copilot and ships its own Word Legal Agent inside Copilot Frontier. Legal tech vendors are building MCPs and connectors into Claude. Capability comes from the model layer, but sourcing, control, surface area, and distribution are the main questions for legal tech vendors.
 
 ## Deep Dives
 
