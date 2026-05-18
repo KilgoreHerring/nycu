@@ -9,7 +9,7 @@ export default function AboutPage() {
         <div className="max-w-3xl mx-auto">
           <p className="eyebrow mb-3">About</p>
           <h1 className="font-display text-4xl md:text-5xl text-[#142028] leading-tight tracking-tight">
-            A fortnightly <span className="font-display-italic text-[#3a7d78]">field note</span>
+            A fortnightly <span className="font-display-italic text-[#3a7d78]">update</span>
           </h1>
           <div className="prose-ink mt-8 text-lg leading-relaxed">
             <p>
@@ -28,6 +28,9 @@ export default function AboutPage() {
             </p>
             <p>
               For the latest stats across legal tech, check out <a href="https://legaltech-stats.vercel.app" target="_blank" rel="noopener noreferrer" className="underline hover:text-[#8a4a30] transition-colors">The Signal</a>.
+            </p>
+            <p>
+              For the latest across the law firm market, check out the <a href="https://legal-ai-index.vercel.app" target="_blank" rel="noopener noreferrer" className="underline hover:text-[#8a4a30] transition-colors">Law Firm AI Index</a>.
             </p>
           </div>
         </div>
