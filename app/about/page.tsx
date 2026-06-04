@@ -18,7 +18,7 @@ export default function AboutPage() {
               work are learning.
             </p>
             <p>
-              Each edition opens with two or three stories worth sitting with, then rounds
+              Each edition opens with two or three stories worth your time, then rounds
               off with a curated list of everything else worth a click. The aim is a
               high-level view of the legal tech market so you can scan what's moving and
               pick out the pieces that fit your own interests.

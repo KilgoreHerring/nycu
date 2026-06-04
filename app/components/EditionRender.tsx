@@ -73,7 +73,7 @@ export function DeepDivesSection({
             eyebrow="Deep Dives"
             title={
               <>
-                Three stories worth <span className="font-display-italic text-[#8a4a30]">sitting with</span>
+                Three stories worth <span className="font-display-italic text-[#8a4a30]">your time</span>
               </>
             }
           />
